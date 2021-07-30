@@ -1,0 +1,137 @@
+# general ontologies & functions
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix schema: <https://schema.org/> .
+@prefix gn: <https://www.geonames.org/countries/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#>.
+# Own namespace
+@prefix project: <https://w3id.org/um/ken4256/project/mb/> .
+@prefix project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/> .
+@prefix mb_rg: <https://musicbrainz.org/release-group/> .
+@prefix mb_r: <https://musicbrainz.org/release/> .
+@prefix mb_a: <https://musicbrainz.org/artist/> .
+@prefix music: <http://purl.org/ontology/mo/> .
+@prefix lang: <https://iso639-3.sil.org/code/> .
+
+@base <https://w3id.org/um/ken4256/project/mb/> .
+
+<#LogicalSource>
+  rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rml:query
+    """
+    -- Musicbrainz Query 4
+    -- artists
+    select
+      rg.gid as release_group_gid,
+      a.gid as gid,
+      a.name as name,
+      at2.name as type,
+      g2.name as gender,
+      a.comment as comment
+    from release_group rg
+    left join artist_credit_name acn on acn.artist_credit = rg.artist_credit
+    left join artist a on a.id = acn.artist 
+    left join artist_type at2 on at2.id = a."type"
+    left join gender g2 on g2.id = a.gender 
+    where
+      -- only release_groups with releases in year 2019
+      rg.id in (
+        select r.release_group
+        from "release" r
+        where id in (select "release" from release_country rc where rc.date_year = 2019 group by "release")
+      );
+    """;
+    rml:referenceFormulation ql:CSV
+
+.
+
+
+<TriplesMap_Artists>
+  a rr:TriplesMap;
+
+  rml:logicalSource <#LogicalSource>;
+
+  rr:subjectMap [
+      rr:template "https://musicbrainz.org/artist/{gid}";
+      rr:class music:MusicArtist;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:datatype xsd:string
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate project_onto:release_group ;
+      rr:objectMap [
+        rr:template "https://musicbrainz.org/release-group/{release_group_gid}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate music:artist_type ;
+      rr:objectMap [
+        rr:template "https://w3id.org/um/ken4256/project/mb/artistType/{type}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate schema:gender ;
+      rr:objectMap [
+        rr:template "https://w3id.org/um/ken4256/project/mb/gender/{gender}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:comment ;
+      rr:objectMap [
+        rml:reference "comment";
+        rr:language "en"
+      ]
+    ];
+
+.
+
+
+
+<TriplesMap_ReleaseGroupToArtists>
+  a rr:TriplesMap;
+
+  rml:logicalSource <#LogicalSource>;
+
+  rr:subjectMap [
+      rr:template "https://musicbrainz.org/release-group/{release_group_gid}";
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate music:artist ;
+      rr:objectMap [
+        rr:template "https://musicbrainz.org/artist/{gid}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+.
+
+
+<#DB_source> a d2rq:Database;
+  d2rq:jdbcDSN "jdbc:postgresql://0.0.0.0:5432/musicbrainz";
+  d2rq:jdbcDriver "org.postgresql.Driver";
+  d2rq:username "musicbrainz";
+  d2rq:password "it_works" .

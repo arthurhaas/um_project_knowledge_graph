@@ -1,0 +1,19 @@
+@prefix project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix music: <http://purl.org/ontology/mo/> .
+
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+project_onto:ReleaseGroup a rdfs:Class;
+  rdfs:label "Release Group"@en;
+  rdfs:comment "A release group, just as the name suggests, is used to group several different releases into a single logical entity. Every release belongs to one, and only one release group."@en;
+  rdfs:seeAlso <https://musicbrainz.org/doc/Release_Group>.
+
+project_onto:release_group a rdfs:Property;
+  rdfs:label "release group"@en;
+  rdfs:comment "A release group, just as the name suggests, is used to group several different releases into a single logical entity. Every release belongs to one, and only one release group."@en;
+  rdfs:seeAlso <https://musicbrainz.org/doc/Release_Group>;
+  rdfs:domain music:Release;
+  rdfs:range project_onto:ReleaseGroup.

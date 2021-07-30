@@ -1,0 +1,162 @@
+# general ontologies & functions
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix schema: <https://schema.org/> .
+@prefix gn: <https://www.geonames.org/countries/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#>.
+# Own namespace
+@prefix project: <https://w3id.org/um/ken4256/project/mb/> .
+@prefix project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/> .
+@prefix mb_rg: <https://musicbrainz.org/release-group/> .
+@prefix mb_r: <https://musicbrainz.org/release/> .
+@prefix music: <http://purl.org/ontology/mo/> .
+@prefix lang: <https://iso639-3.sil.org/code/> .
+
+@base <https://w3id.org/um/ken4256/project/mb/> .
+
+<#LogicalSource>
+  rml:source <#DB_source>;
+  rr:sqlVersion rr:SQL2008;
+  rml:query
+  """
+  -- Musicbrainz Query 3
+  -- releases
+  select
+    rg.gid as release_group_gid,
+    r.gid as gid,
+    r.name as name,
+    rs.name as status,
+    lang.iso_code_3 as language_iso_3,
+    rc.countries as countries,
+    rc.first_date as first_date,
+    rc.last_date as last_date
+  from "release" r
+  left join release_group rg on rg.id = r.release_group
+  left join "language" lang on lang.id = r."language"
+  left join release_status rs on rs.id = r.status 
+  inner join (
+    select
+      "release",
+      array_agg(i1.code) as countries,
+      concat(coalesce(min(rc.date_year),1), '-', coalesce(min(rc.date_month),1), '-', coalesce(min(rc.date_day), 1)) as first_date,
+      concat(coalesce(max(rc.date_year),1), '-', coalesce(max(rc.date_month),1), '-', coalesce(max(rc.date_day), 1)) as last_date
+    from release_country rc
+    left join iso_3166_1 i1 on i1.area = rc.country
+    where date_year = 2019
+    group by "release"
+  ) rc on rc."release" = r.id
+  where r.id = 2701981
+  limit 10;
+  """;
+  rml:referenceFormulation ql:CSV
+.  
+
+<TriplesMap_Country>
+  a rr:TriplesMap;
+
+  rml:logicalSource <#LogicalSource> ;
+
+  rr:subjectMap [
+      rr:template "https://musicbrainz.org/release/{gid}";
+      rr:class music:Release;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:datatype xsd:string
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate project_onto:release_group ;
+      rr:objectMap [
+        rr:template "https://musicbrainz.org/release-group/{release_group_gid}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate music:release_status ;
+      rr:objectMap [
+        rr:template "https://w3id.org/um/ken4256/project/mb/releaseStatus/{status}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate schema:inLanguage ;
+      rr:objectMap [
+        rr:template "https://iso639-3.sil.org/code/{language_iso_3}";
+        rr:termType rr:IRI
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate gn:Country ;
+      rr:objectMap <#FunctionMap>
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate music:activity_start ;
+      rr:objectMap [
+        rml:reference "first_date";
+        rr:datatype xsd:date
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate music:activity_end ;
+      rr:objectMap [
+        rml:reference "last_date";
+        rr:datatype xsd:date
+      ]
+    ];
+.
+
+
+#############
+#
+# But again: How to turn those elements into IRIs?
+# https://fno.io/rml/
+#
+#############
+
+<#FunctionMap>
+  a fnml:FunctionTermMap;
+  
+  fnml:functionValue [
+    rml:logicalSource <#LogicalSource>;
+    rr:subjectMap [];
+    rr:predicateObjectMap [
+      rr:predicate grel:valueParameter;
+      rr:objectMap [ rml:reference "countries" ]
+    ],
+    [
+      rr:predicate grel:p_string_sep;
+      rr:objectMap [ rr:constant "," ]
+    ],
+    [
+      rr:predicate fno:executes;
+      rr:objectMap [ rr:constant grel:string_split ]
+    ];
+  ]
+.
+
+
+
+<#DB_source> a d2rq:Database;
+  d2rq:jdbcDSN "jdbc:postgresql://0.0.0.0:5432/musicbrainz";
+  d2rq:jdbcDriver "org.postgresql.Driver";
+  d2rq:username "musicbrainz";
+  d2rq:password "it_works" .

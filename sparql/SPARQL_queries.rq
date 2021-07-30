@@ -1,0 +1,130 @@
+
+# Query 1 - main research question
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX music: <http://purl.org/ontology/mo/>
+PREFIX project_ontology: <https://w3id.org/um/ken4256/project/ontology/>
+PREFIX wikidata_predicate: <https://www.wikidata.org/wiki/Property:>
+
+select ?country_name (count(?release) as ?releases_count) ?happiness_score ?gdp_2019
+where { 
+	?country a schema:Country ;
+         	foaf:name ?country_name ;
+    		project_ontology:hasHappinessScore ?happiness_score ;
+      		wikidata_predicate:P2132 ?gdp_2019.
+    ?release a music:Release ;
+            schema:addressCountry ?country. 
+}
+group by ?country_name ?happiness_score ?gdp_2019
+order by desc(?releases_count)
+limit 200
+
+
+# Query 2 - number of release_groups per artist
+PREFIX music: <http://purl.org/ontology/mo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/>
+PREFIX schema: <https://schema.org/>
+
+select ?artist ?artist_name ?artist_type ?gender (count(distinct ?release_group) as ?release_groups_count)
+where { 
+	?artist a music:MusicArtist;
+         rdfs:label ?artist_name;
+         project_onto:release_group ?release_group;
+         music:artist_type ?artist_type;
+         schema:gender ?gender.
+    ?release_group a project_onto:ReleaseGroup.
+    ?release a music:Release;
+             project_onto:release_group ?release_group.
+}
+group by ?artist ?artist_name ?artist_type ?gender
+order by desc(?release_groups_count)
+limit 100 
+
+
+# Query 3 - Country with most releases
+PREFIX music: <http://purl.org/ontology/mo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/>
+PREFIX schema: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+select ?country_name (count(distinct ?release) as ?release_count)
+where { 
+    ?release a music:Release;
+             schema:addressCountry ?country.
+    ?country a schema:Country;
+             foaf:name ?country_name.
+}
+group by ?country_name
+order by desc(?release_count)
+limit 100
+
+
+# Query 4 - Artist_type and gender to release_group's count
+PREFIX music: <http://purl.org/ontology/mo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/>
+PREFIX schema: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+select ?artist_type ?gender (count(distinct ?release_group) as ?release_group_count)
+where { 
+    ?artist a music:MusicArtist;
+         rdfs:label ?artist_name;
+         project_onto:release_group ?release_group;
+         music:artist_type ?artist_type;
+         schema:gender ?gender.
+    ?release_group a project_onto:ReleaseGroup.
+}
+group by ?artist_type ?gender
+order by desc(?release_group_count)
+limit 100 
+
+
+
+# Query 5 - Most used lanugage in releases
+PREFIX music: <http://purl.org/ontology/mo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/>
+PREFIX schema: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+select ?language_name (count(distinct ?release) as ?release_count)
+where { 
+    ?language a schema:Language;
+             rdfs:label ?language_name.
+    ?release a music:Release;
+             schema:inLanguage ?language.
+}
+group by ?language_name
+order by desc(?release_count)
+limit 100 
+
+
+
+#### Query 6 - Most international artists (without owl:sameAs)
+PREFIX music: <http://purl.org/ontology/mo/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/>
+PREFIX schema: <https://schema.org/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+select ?artist ?artist_name ?artist_type ?gender (count(distinct ?country) as ?country_name_count)
+where { 
+	?artist a music:MusicArtist;
+         rdfs:label ?artist_name;
+         project_onto:release_group ?release_group;
+         music:artist_type ?artist_type;
+         schema:gender ?gender.
+    ?release_group a project_onto:ReleaseGroup.
+    ?release a music:Release;
+             project_onto:release_group ?release_group;
+             schema:addressCountry ?country.
+    ?country a schema:Country;
+             foaf:name ?country_name.
+}
+group by ?artist ?artist_name ?artist_type ?gender
+order by desc(?country_name_count)
+limit 100 

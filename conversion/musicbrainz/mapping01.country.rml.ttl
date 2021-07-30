@@ -1,0 +1,79 @@
+# general ontologies & functions
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix schema: <https://schema.org/> .
+@prefix gn: <https://www.geonames.org/countries/> .
+# Own namespace
+@prefix project: <https://w3id.org/um/ken4256/project/mb/> .
+#@prefix project_ontology: <https://w3id.org/um/ken4256/project/mb/ontology/> .
+
+@base <https://w3id.org/um/ken4256/project/mb/> .
+
+<TriplesMap_Country>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rml:query
+    """
+    -- Musicbrainz Query 1
+    -- Countries
+    -- remarks:
+    ---- Tables iso are not usable, because a 3 letter country code does not exist.
+    ---- Which is needed due to the GDP dataset.
+    select
+      a.id as country_id,
+      a.name as country_name,
+      i1.code as country_code
+    from musicbrainz.area a
+    left join iso_3166_1 i1 on i1.area = a.id
+    where
+      -- Query for countries
+      a.type = (select id from musicbrainz.area_type where name = 'Country')
+      -- Countries that still existed in the year 2019
+      and (a.end_date_year is null or a.end_date_year >= 2019)
+      -- Countries with country_code. Two don't have: Kingdom of the Netherlands, Somaliland
+      and i1.code is not null;
+    """;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+      rr:template "https://www.geonames.org/countries/{country_code}/";
+      rr:class schema:Country;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "country_name";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate foaf:name ;
+      rr:objectMap [
+        rml:reference "country_name";
+        rr:language "en"
+      ]
+    ];
+
+.
+
+
+
+<#DB_source> a d2rq:Database;
+  d2rq:jdbcDSN "jdbc:postgresql://0.0.0.0:5432/musicbrainz";
+  d2rq:jdbcDriver "org.postgresql.Driver";
+  d2rq:username "musicbrainz";
+  d2rq:password "it_works" .

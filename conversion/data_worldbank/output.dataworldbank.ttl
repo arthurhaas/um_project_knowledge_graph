@@ -1,0 +1,2537 @@
+@prefix project: <https://w3id.org/um/ken4256/project/reification/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wikidata_predicate: <https://www.wikidata.org/wiki/Property:> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+project:statement_AFG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Afghanistan"@en ;
+    rdf:object 507.1 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/AFG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Afghanistan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_AGO a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Angola"@en ;
+    rdf:object 2790.73 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/AGO/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Angola, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ALB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Albania"@en ;
+    rdf:object 5353.24 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ALB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Albania, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_AND a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Andorra"@en ;
+    rdf:object 40886.39 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/AND/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Andorra, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ARB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Arab World"@en ;
+    rdf:object 6584.74 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ARB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Arab World, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ARE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for United Arab Emirates"@en ;
+    rdf:object 43103.32 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ARE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for United Arab Emirates, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ARG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Argentina"@en ;
+    rdf:object 9912.28 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ARG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Argentina, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ARM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Armenia"@en ;
+    rdf:object 4622.73 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ARM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Armenia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ATG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Antigua and Barbuda"@en ;
+    rdf:object 17112.82 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ATG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Antigua and Barbuda, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_AUS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Australia"@en ;
+    rdf:object 55060.33 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/AUS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Australia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_AUT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Austria"@en ;
+    rdf:object 50137.66 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/AUT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Austria, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_AZE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Azerbaijan"@en ;
+    rdf:object 4793.59 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/AZE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Azerbaijan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BDI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Burundi"@en ;
+    rdf:object 261.25 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BDI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Burundi, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BEL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Belgium"@en ;
+    rdf:object 46420.66 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BEL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Belgium, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BEN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Benin"@en ;
+    rdf:object 1219.43 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BEN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Benin, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BFA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Burkina Faso"@en ;
+    rdf:object 786.9 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BFA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Burkina Faso, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BGD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bangladesh"@en ;
+    rdf:object 1855.74 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BGD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bangladesh, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BGR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bulgaria"@en ;
+    rdf:object 9828.15 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BGR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bulgaria, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BHR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bahrain"@en ;
+    rdf:object 23503.98 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BHR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bahrain, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BHS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bahamas, The"@en ;
+    rdf:object 34863.74 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BHS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bahamas, The, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BIH a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bosnia and Herzegovina"@en ;
+    rdf:object 6108.51 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BIH/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bosnia and Herzegovina, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BLR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Belarus"@en ;
+    rdf:object 6663.3 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BLR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Belarus, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BLZ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Belize"@en ;
+    rdf:object 4815.16 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BLZ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Belize, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BMU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bermuda"@en ;
+    rdf:object 117089.29 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BMU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bermuda, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BOL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bolivia"@en ;
+    rdf:object 3552.07 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BOL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bolivia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BRA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Brazil"@en ;
+    rdf:object 8717.19 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BRA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Brazil, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BRB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Barbados"@en ;
+    rdf:object 18148.24 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BRB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Barbados, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BRN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Brunei Darussalam"@en ;
+    rdf:object 31086.75 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BRN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Brunei Darussalam, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BTN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Bhutan"@en ;
+    rdf:object 3316.18 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BTN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Bhutan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_BWA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Botswana"@en ;
+    rdf:object 7961.33 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/BWA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Botswana, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CAF a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Central African Republic"@en ;
+    rdf:object 467.91 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CAF/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Central African Republic, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CAN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Canada"@en ;
+    rdf:object 46194.73 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CAN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Canada, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CEB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Central Europe and the Baltics"@en ;
+    rdf:object 16300.79 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CEB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Central Europe and the Baltics, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CHE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Switzerland"@en ;
+    rdf:object 81993.73 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CHE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Switzerland, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CHL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Chile"@en ;
+    rdf:object 14896.45 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CHL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Chile, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CHN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for China"@en ;
+    rdf:object 10261.68 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CHN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for China, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CIV a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Cote d'Ivoire"@en ;
+    rdf:object 2276.33 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CIV/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Cote d'Ivoire, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CMR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Cameroon"@en ;
+    rdf:object 1507.45 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CMR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Cameroon, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_COD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Congo, Dem. Rep."@en ;
+    rdf:object 580.72 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/COD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Congo, Dem. Rep., see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_COG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Congo, Rep."@en ;
+    rdf:object 2279.97 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/COG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Congo, Rep., see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_COL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Colombia"@en ;
+    rdf:object 6428.68 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/COL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Colombia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_COM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Comoros"@en ;
+    rdf:object 1370.15 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/COM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Comoros, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CPV a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Cabo Verde"@en ;
+    rdf:object 3603.78 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CPV/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Cabo Verde, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CRI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Costa Rica"@en ;
+    rdf:object 12243.81 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CRI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Costa Rica, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CSS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Caribbean small states"@en ;
+    rdf:object 10500.97 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CSS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Caribbean small states, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CUW a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Curacao"@en ;
+    rdf:object 19689.14 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CUW/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Curacao, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CYP a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Cyprus"@en ;
+    rdf:object 27858.37 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CYP/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Cyprus, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_CZE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Czech Republic"@en ;
+    rdf:object 23494.6 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/CZE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Czech Republic, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_DEU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Germany"@en ;
+    rdf:object 46445.25 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/DEU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Germany, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_DJI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Djibouti"@en ;
+    rdf:object 3414.92 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/DJI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Djibouti, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_DMA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Dominica"@en ;
+    rdf:object 8110.57 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/DMA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Dominica, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_DNK a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Denmark"@en ;
+    rdf:object 60170.34 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/DNK/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Denmark, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_DOM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Dominican Republic"@en ;
+    rdf:object 8282.12 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/DOM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Dominican Republic, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_DZA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Algeria"@en ;
+    rdf:object 3973.96 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/DZA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Algeria, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EAP a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for East Asia & Pacific (excluding high income)"@en ;
+    rdf:object 8222.28 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EAP/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for East Asia & Pacific (excluding high income), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EAR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Early-demographic dividend"@en ;
+    rdf:object 3644.01 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EAR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Early-demographic dividend, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EAS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for East Asia & Pacific"@en ;
+    rdf:object 11530.14 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EAS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for East Asia & Pacific, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ECA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Europe & Central Asia (excluding high income)"@en ;
+    rdf:object 8133.26 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ECA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Europe & Central Asia (excluding high income), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ECS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Europe & Central Asia"@en ;
+    rdf:object 24744.14 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ECS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Europe & Central Asia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ECU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Ecuador"@en ;
+    rdf:object 6183.82 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ECU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Ecuador, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EGY a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Egypt, Arab Rep."@en ;
+    rdf:object 3019.21 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EGY/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Egypt, Arab Rep., see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EMU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Euro area"@en ;
+    rdf:object 38984.69 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EMU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Euro area, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ESP a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Spain"@en ;
+    rdf:object 29600.38 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ESP/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Spain, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EST a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Estonia"@en ;
+    rdf:object 23723.31 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EST/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Estonia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ETH a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Ethiopia"@en ;
+    rdf:object 855.76 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ETH/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Ethiopia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_EUU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for European Union"@en ;
+    rdf:object 34918.5 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/EUU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for European Union, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_FCS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Fragile and conflict affected situations"@en ;
+    rdf:object 2228.26 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/FCS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Fragile and conflict affected situations, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_FIN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Finland"@en ;
+    rdf:object 48782.79 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/FIN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Finland, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_FJI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Fiji"@en ;
+    rdf:object 6175.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/FJI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Fiji, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_FRA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for France"@en ;
+    rdf:object 40493.93 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/FRA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for France, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GAB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Gabon"@en ;
+    rdf:object 7767.01 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GAB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Gabon, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GBR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for United Kingdom"@en ;
+    rdf:object 42330.12 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GBR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for United Kingdom, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GEO a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Georgia"@en ;
+    rdf:object 4697.7 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GEO/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Georgia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GHA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Ghana"@en ;
+    rdf:object 2202.12 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GHA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Ghana, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GIN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Guinea"@en ;
+    rdf:object 962.84 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GIN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Guinea, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GMB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Gambia, The"@en ;
+    rdf:object 777.81 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GMB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Gambia, The, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GNB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Guinea-Bissau"@en ;
+    rdf:object 697.29 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GNB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Guinea-Bissau, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GNQ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Equatorial Guinea"@en ;
+    rdf:object 8131.92 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GNQ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Equatorial Guinea, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GRC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Greece"@en ;
+    rdf:object 19582.54 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GRC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Greece, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GRD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Grenada"@en ;
+    rdf:object 10808.67 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GRD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Grenada, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GTM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Guatemala"@en ;
+    rdf:object 4619.99 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GTM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Guatemala, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_GUY a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Guyana"@en ;
+    rdf:object 6609.59 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/GUY/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Guyana, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HIC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for High income"@en ;
+    rdf:object 44617.48 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HIC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for High income, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HKG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Hong Kong SAR, China"@en ;
+    rdf:object 48713.47 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HKG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Hong Kong SAR, China, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HND a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Honduras"@en ;
+    rdf:object 2574.91 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HND/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Honduras, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HPC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Heavily indebted poor countries (HIPC)"@en ;
+    rdf:object 976.74 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HPC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Heavily indebted poor countries (HIPC), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HRV a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Croatia"@en ;
+    rdf:object 14936.1 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HRV/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Croatia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HTI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Haiti"@en ;
+    rdf:object 1272.49 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HTI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Haiti, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_HUN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Hungary"@en ;
+    rdf:object 16731.82 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/HUN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Hungary, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IBD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for IBRD only"@en ;
+    rdf:object 6561.99 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IBD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for IBRD only, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IBT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for IDA & IBRD total"@en ;
+    rdf:object 5228.54 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IBT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for IDA & IBRD total, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IDA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for IDA total"@en ;
+    rdf:object 1388.83 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IDA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for IDA total, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IDB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for IDA blend"@en ;
+    rdf:object 1765.66 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IDB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for IDA blend, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IDN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Indonesia"@en ;
+    rdf:object 4135.57 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IDN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Indonesia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IDX a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for IDA only"@en ;
+    rdf:object 1200.92 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IDX/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for IDA only, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IND a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for India"@en ;
+    rdf:object 2099.6 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IND/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for India, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IRL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Ireland"@en ;
+    rdf:object 78660.96 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IRL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Ireland, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_IRQ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Iraq"@en ;
+    rdf:object 5955.11 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/IRQ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Iraq, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ISL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Iceland"@en ;
+    rdf:object 66944.83 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ISL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Iceland, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ISR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Israel"@en ;
+    rdf:object 43592.08 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ISR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Israel, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ITA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Italy"@en ;
+    rdf:object 33228.24 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ITA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Italy, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_JAM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Jamaica"@en ;
+    rdf:object 5582.26 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/JAM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Jamaica, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_JOR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Jordan"@en ;
+    rdf:object 4405.49 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/JOR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Jordan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_JPN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Japan"@en ;
+    rdf:object 40246.88 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/JPN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Japan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KAZ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Kazakhstan"@en ;
+    rdf:object 9812.39 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KAZ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Kazakhstan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KEN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Kenya"@en ;
+    rdf:object 1816.55 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KEN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Kenya, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KGZ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Kyrgyz Republic"@en ;
+    rdf:object 1309.39 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KGZ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Kyrgyz Republic, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KHM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Cambodia"@en ;
+    rdf:object 1643.12 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KHM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Cambodia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KIR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Kiribati"@en ;
+    rdf:object 1655.08 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KIR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Kiribati, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KNA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for St. Kitts and Nevis"@en ;
+    rdf:object 19934.97 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KNA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for St. Kitts and Nevis, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KOR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Korea, Rep."@en ;
+    rdf:object 31846.22 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KOR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Korea, Rep., see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_KWT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Kuwait"@en ;
+    rdf:object 32000.45 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/KWT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Kuwait, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LAC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Latin America & Caribbean (excluding high income)"@en ;
+    rdf:object 8390.06 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LAC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Latin America & Caribbean (excluding high income), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LAO a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Lao PDR"@en ;
+    rdf:object 2534.9 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LAO/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Lao PDR, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LBN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Lebanon"@en ;
+    rdf:object 7583.69 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LBN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Lebanon, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LBR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Liberia"@en ;
+    rdf:object 621.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LBR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Liberia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LBY a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Libya"@en ;
+    rdf:object 7685.95 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LBY/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Libya, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LCA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for St. Lucia"@en ;
+    rdf:object 11611.42 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LCA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for St. Lucia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LCN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Latin America & Caribbean"@en ;
+    rdf:object 8869.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LCN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Latin America & Caribbean, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LDC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Least developed countries: UN classification"@en ;
+    rdf:object 1079.2 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LDC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Least developed countries: UN classification, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LIC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Low income"@en ;
+    rdf:object 810.09 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LIC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Low income, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LKA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sri Lanka"@en ;
+    rdf:object 3853.08 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LKA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sri Lanka, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LMC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Lower middle income"@en ;
+    rdf:object 2174.44 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LMC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Lower middle income, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LMY a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Low & middle income"@en ;
+    rdf:object 5080.88 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LMY/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Low & middle income, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LSO a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Lesotho"@en ;
+    rdf:object 1118.13 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LSO/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Lesotho, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LTE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Late-demographic dividend"@en ;
+    rdf:object 9999.49 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LTE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Late-demographic dividend, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LTU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Lithuania"@en ;
+    rdf:object 19601.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LTU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Lithuania, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LUX a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Luxembourg"@en ;
+    rdf:object 114704.59 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LUX/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Luxembourg, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_LVA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Latvia"@en ;
+    rdf:object 17828.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/LVA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Latvia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MAC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Macao SAR, China"@en ;
+    rdf:object 84096.4 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MAC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Macao SAR, China, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MAR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Morocco"@en ;
+    rdf:object 3204.1 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MAR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Morocco, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MDA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Moldova"@en ;
+    rdf:object 4503.52 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MDA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Moldova, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MDG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Madagascar"@en ;
+    rdf:object 523.36 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MDG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Madagascar, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MDV a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Maldives"@en ;
+    rdf:object 10626.51 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MDV/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Maldives, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MEA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Middle East & North Africa"@en ;
+    rdf:object 7991.13 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MEA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Middle East & North Africa, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MEX a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Mexico"@en ;
+    rdf:object 9946.03 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MEX/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Mexico, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MIC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Middle income"@en ;
+    rdf:object 5573.24 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MIC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Middle income, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MKD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for North Macedonia"@en ;
+    rdf:object 6022.22 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MKD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for North Macedonia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MLI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Mali"@en ;
+    rdf:object 879.01 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MLI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Mali, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MLT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Malta"@en ;
+    rdf:object 29820.6 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MLT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Malta, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MMR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Myanmar"@en ;
+    rdf:object 1407.81 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MMR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Myanmar, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MNE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Montenegro"@en ;
+    rdf:object 8908.93 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MNE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Montenegro, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MNG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Mongolia"@en ;
+    rdf:object 4339.84 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MNG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Mongolia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MOZ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Mozambique"@en ;
+    rdf:object 503.57 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MOZ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Mozambique, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MRT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Mauritania"@en ;
+    rdf:object 1679.44 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MRT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Mauritania, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MUS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Mauritius"@en ;
+    rdf:object 11099.24 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MUS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Mauritius, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MWI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Malawi"@en ;
+    rdf:object 411.55 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MWI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Malawi, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_MYS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Malaysia"@en ;
+    rdf:object 11414.21 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/MYS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Malaysia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NAC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for North America"@en ;
+    rdf:object 63344.08 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NAC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for North America, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NAM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Namibia"@en ;
+    rdf:object 4957.46 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NAM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Namibia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NER a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Niger"@en ;
+    rdf:object 553.9 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NER/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Niger, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NGA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Nigeria"@en ;
+    rdf:object 2229.86 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NGA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Nigeria, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NIC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Nicaragua"@en ;
+    rdf:object 1912.9 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NIC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Nicaragua, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NLD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Netherlands"@en ;
+    rdf:object 52331.32 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NLD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Netherlands, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NOR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Norway"@en ;
+    rdf:object 75419.63 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NOR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Norway, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NPL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Nepal"@en ;
+    rdf:object 1071.05 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NPL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Nepal, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NRU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Nauru"@en ;
+    rdf:object 9396.98 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NRU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Nauru, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_NZL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for New Zealand"@en ;
+    rdf:object 42084.35 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/NZL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for New Zealand, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_OED a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for OECD members"@en ;
+    rdf:object 39485.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/OED/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for OECD members, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_OMN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Oman"@en ;
+    rdf:object 15343.06 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/OMN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Oman, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_OSS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Other small states"@en ;
+    rdf:object 13778.29 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/OSS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Other small states, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PAK a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Pakistan"@en ;
+    rdf:object 1284.7 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PAK/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Pakistan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PAN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Panama"@en ;
+    rdf:object 15731.02 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PAN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Panama, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PER a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Peru"@en ;
+    rdf:object 6977.7 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PER/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Peru, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PHL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Philippines"@en ;
+    rdf:object 3485.08 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PHL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Philippines, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PLW a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Palau"@en ;
+    rdf:object 14901.98 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PLW/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Palau, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PNG a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Papua New Guinea"@en ;
+    rdf:object 2829.17 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PNG/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Papua New Guinea, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_POL a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Poland"@en ;
+    rdf:object 15692.51 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/POL/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Poland, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PRE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Pre-demographic dividend"@en ;
+    rdf:object 1485.65 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PRE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Pre-demographic dividend, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PRI a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Puerto Rico"@en ;
+    rdf:object 32873.72 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PRI/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Puerto Rico, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PRT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Portugal"@en ;
+    rdf:object 23252.06 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PRT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Portugal, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PRY a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Paraguay"@en ;
+    rdf:object 5414.8 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PRY/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Paraguay, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PSS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Pacific island small states"@en ;
+    rdf:object 4264.67 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PSS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Pacific island small states, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_PST a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Post-demographic dividend"@en ;
+    rdf:object 45618.89 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/PST/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Post-demographic dividend, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_QAT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Qatar"@en ;
+    rdf:object 62088.06 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/QAT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Qatar, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ROU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Romania"@en ;
+    rdf:object 12919.53 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ROU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Romania, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_RUS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Russian Federation"@en ;
+    rdf:object 11585.0 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/RUS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Russian Federation, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_RWA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Rwanda"@en ;
+    rdf:object 820.03 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/RWA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Rwanda, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SAS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for South Asia"@en ;
+    rdf:object 1956.58 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SAS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for South Asia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SAU a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Saudi Arabia"@en ;
+    rdf:object 23139.8 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SAU/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Saudi Arabia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SDN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sudan"@en ;
+    rdf:object 441.51 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SDN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sudan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SEN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Senegal"@en ;
+    rdf:object 1446.83 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SEN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Senegal, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SGP a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Singapore"@en ;
+    rdf:object 65233.28 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SGP/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Singapore, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SLB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Solomon Islands"@en ;
+    rdf:object 2373.63 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SLB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Solomon Islands, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SLE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sierra Leone"@en ;
+    rdf:object 527.53 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SLE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sierra Leone, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SLV a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for El Salvador"@en ;
+    rdf:object 4187.25 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SLV/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for El Salvador, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SRB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Serbia"@en ;
+    rdf:object 7411.84 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SRB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Serbia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SSA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sub-Saharan Africa (excluding high income)"@en ;
+    rdf:object 1583.93 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SSA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sub-Saharan Africa (excluding high income), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SSF a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sub-Saharan Africa"@en ;
+    rdf:object 1596.21 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SSF/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sub-Saharan Africa, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SST a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Small states"@en ;
+    rdf:object 12615.47 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SST/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Small states, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_STP a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sao Tome and Principe"@en ;
+    rdf:object 1946.64 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/STP/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sao Tome and Principe, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SUR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Suriname"@en ;
+    rdf:object 6359.83 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SUR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Suriname, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SVK a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Slovak Republic"@en ;
+    rdf:object 19266.28 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SVK/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Slovak Republic, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SVN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Slovenia"@en ;
+    rdf:object 25946.18 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SVN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Slovenia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SWE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sweden"@en ;
+    rdf:object 51615.02 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SWE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sweden, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SWZ a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Eswatini"@en ;
+    rdf:object 3894.68 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SWZ/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Eswatini, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_SYC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Seychelles"@en ;
+    rdf:object 17448.27 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/SYC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Seychelles, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TCA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Turks and Caicos Islands"@en ;
+    rdf:object 31353.33 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TCA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Turks and Caicos Islands, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TCD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Chad"@en ;
+    rdf:object 709.54 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TCD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Chad, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TEA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for East Asia & Pacific (IDA & IBRD countries)"@en ;
+    rdf:object 8308.52 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TEA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for East Asia & Pacific (IDA & IBRD countries), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TEC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Europe & Central Asia (IDA & IBRD countries)"@en ;
+    rdf:object 9017.28 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TEC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Europe & Central Asia (IDA & IBRD countries), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TGO a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Togo"@en ;
+    rdf:object 679.29 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TGO/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Togo, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_THA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Thailand"@en ;
+    rdf:object 7806.74 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/THA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Thailand, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TJK a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Tajikistan"@en ;
+    rdf:object 870.79 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TJK/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Tajikistan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TLA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Latin America & the Caribbean (IDA & IBRD countries)"@en ;
+    rdf:object 8702.14 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TLA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Latin America & the Caribbean (IDA & IBRD countries), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TLS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Timor-Leste"@en ;
+    rdf:object 1560.51 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TLS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Timor-Leste, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TON a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Tonga"@en ;
+    rdf:object 4903.15 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TON/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Tonga, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TSA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for South Asia (IDA & IBRD)"@en ;
+    rdf:object 1956.58 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TSA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for South Asia (IDA & IBRD), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TSS a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Sub-Saharan Africa (IDA & IBRD countries)"@en ;
+    rdf:object 1596.21 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TSS/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Sub-Saharan Africa (IDA & IBRD countries), see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TTO a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Trinidad and Tobago"@en ;
+    rdf:object 17397.98 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TTO/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Trinidad and Tobago, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TUN a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Tunisia"@en ;
+    rdf:object 3317.45 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TUN/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Tunisia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TUR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Turkey"@en ;
+    rdf:object 9126.56 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TUR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Turkey, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TUV a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Tuvalu"@en ;
+    rdf:object 4059.03 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TUV/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Tuvalu, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_TZA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Tanzania"@en ;
+    rdf:object 1122.12 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/TZA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Tanzania, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_UGA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Uganda"@en ;
+    rdf:object 794.34 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/UGA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Uganda, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_UKR a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Ukraine"@en ;
+    rdf:object 3659.03 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/UKR/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Ukraine, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_UMC a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Upper middle income"@en ;
+    rdf:object 9036.77 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/UMC/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Upper middle income, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_URY a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Uruguay"@en ;
+    rdf:object 16190.13 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/URY/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Uruguay, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_USA a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for United States"@en ;
+    rdf:object 65297.52 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/USA/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for United States, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_UZB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Uzbekistan"@en ;
+    rdf:object 1724.84 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/UZB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Uzbekistan, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_VCT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for St. Vincent and the Grenadines"@en ;
+    rdf:object 7457.51 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/VCT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for St. Vincent and the Grenadines, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_VNM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Vietnam"@en ;
+    rdf:object 2715.28 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/VNM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Vietnam, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_VUT a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Vanuatu"@en ;
+    rdf:object 3115.36 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/VUT/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Vanuatu, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_WLD a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for World"@en ;
+    rdf:object 11441.73 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/WLD/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for World, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_WSM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Samoa"@en ;
+    rdf:object 4324.01 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/WSM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Samoa, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_XKX a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Kosovo"@en ;
+    rdf:object 4417.52 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/XKX/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Kosovo, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_YEM a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Yemen, Rep."@en ;
+    rdf:object 774.33 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/YEM/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Yemen, Rep., see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ZAF a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for South Africa"@en ;
+    rdf:object 6001.4 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ZAF/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for South Africa, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ZMB a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Zambia"@en ;
+    rdf:object 1305.06 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ZMB/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Zambia, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+project:statement_ZWE a rdf:Statement ;
+    rdfs:label "nominal GDP 2019 for Zimbabwe"@en ;
+    rdf:object 1463.99 ;
+    rdf:predicate wikidata_predicate:P2132 ;
+    rdf:subject <https://www.geonames.org/countries/ZWE/> ;
+    rdfs:comment "Shows the nominal gross domestic product from the year 2019 for Zimbabwe, see https://www.wikidata.org/wiki/Q28501082"@en .
+
+<https://www.geonames.org/countries/AFG/> a schema:Country ;
+    rdfs:label "Afghanistan"@en ;
+    wikidata_predicate:P2132 "507.1"^^xsd:float .
+
+<https://www.geonames.org/countries/AGO/> a schema:Country ;
+    rdfs:label "Angola"@en ;
+    wikidata_predicate:P2132 "2790.73"^^xsd:float .
+
+<https://www.geonames.org/countries/ALB/> a schema:Country ;
+    rdfs:label "Albania"@en ;
+    wikidata_predicate:P2132 "5353.24"^^xsd:float .
+
+<https://www.geonames.org/countries/AND/> a schema:Country ;
+    rdfs:label "Andorra"@en ;
+    wikidata_predicate:P2132 "40886.39"^^xsd:float .
+
+<https://www.geonames.org/countries/ARB/> a schema:Country ;
+    rdfs:label "Arab World"@en ;
+    wikidata_predicate:P2132 "6584.74"^^xsd:float .
+
+<https://www.geonames.org/countries/ARE/> a schema:Country ;
+    rdfs:label "United Arab Emirates"@en ;
+    wikidata_predicate:P2132 "43103.32"^^xsd:float .
+
+<https://www.geonames.org/countries/ARG/> a schema:Country ;
+    rdfs:label "Argentina"@en ;
+    wikidata_predicate:P2132 "9912.28"^^xsd:float .
+
+<https://www.geonames.org/countries/ARM/> a schema:Country ;
+    rdfs:label "Armenia"@en ;
+    wikidata_predicate:P2132 "4622.73"^^xsd:float .
+
+<https://www.geonames.org/countries/ATG/> a schema:Country ;
+    rdfs:label "Antigua and Barbuda"@en ;
+    wikidata_predicate:P2132 "17112.82"^^xsd:float .
+
+<https://www.geonames.org/countries/AUS/> a schema:Country ;
+    rdfs:label "Australia"@en ;
+    wikidata_predicate:P2132 "55060.33"^^xsd:float .
+
+<https://www.geonames.org/countries/AUT/> a schema:Country ;
+    rdfs:label "Austria"@en ;
+    wikidata_predicate:P2132 "50137.66"^^xsd:float .
+
+<https://www.geonames.org/countries/AZE/> a schema:Country ;
+    rdfs:label "Azerbaijan"@en ;
+    wikidata_predicate:P2132 "4793.59"^^xsd:float .
+
+<https://www.geonames.org/countries/BDI/> a schema:Country ;
+    rdfs:label "Burundi"@en ;
+    wikidata_predicate:P2132 "261.25"^^xsd:float .
+
+<https://www.geonames.org/countries/BEL/> a schema:Country ;
+    rdfs:label "Belgium"@en ;
+    wikidata_predicate:P2132 "46420.66"^^xsd:float .
+
+<https://www.geonames.org/countries/BEN/> a schema:Country ;
+    rdfs:label "Benin"@en ;
+    wikidata_predicate:P2132 "1219.43"^^xsd:float .
+
+<https://www.geonames.org/countries/BFA/> a schema:Country ;
+    rdfs:label "Burkina Faso"@en ;
+    wikidata_predicate:P2132 "786.9"^^xsd:float .
+
+<https://www.geonames.org/countries/BGD/> a schema:Country ;
+    rdfs:label "Bangladesh"@en ;
+    wikidata_predicate:P2132 "1855.74"^^xsd:float .
+
+<https://www.geonames.org/countries/BGR/> a schema:Country ;
+    rdfs:label "Bulgaria"@en ;
+    wikidata_predicate:P2132 "9828.15"^^xsd:float .
+
+<https://www.geonames.org/countries/BHR/> a schema:Country ;
+    rdfs:label "Bahrain"@en ;
+    wikidata_predicate:P2132 "23503.98"^^xsd:float .
+
+<https://www.geonames.org/countries/BHS/> a schema:Country ;
+    rdfs:label "Bahamas, The"@en ;
+    wikidata_predicate:P2132 "34863.74"^^xsd:float .
+
+<https://www.geonames.org/countries/BIH/> a schema:Country ;
+    rdfs:label "Bosnia and Herzegovina"@en ;
+    wikidata_predicate:P2132 "6108.51"^^xsd:float .
+
+<https://www.geonames.org/countries/BLR/> a schema:Country ;
+    rdfs:label "Belarus"@en ;
+    wikidata_predicate:P2132 "6663.3"^^xsd:float .
+
+<https://www.geonames.org/countries/BLZ/> a schema:Country ;
+    rdfs:label "Belize"@en ;
+    wikidata_predicate:P2132 "4815.16"^^xsd:float .
+
+<https://www.geonames.org/countries/BMU/> a schema:Country ;
+    rdfs:label "Bermuda"@en ;
+    wikidata_predicate:P2132 "117089.29"^^xsd:float .
+
+<https://www.geonames.org/countries/BOL/> a schema:Country ;
+    rdfs:label "Bolivia"@en ;
+    wikidata_predicate:P2132 "3552.07"^^xsd:float .
+
+<https://www.geonames.org/countries/BRA/> a schema:Country ;
+    rdfs:label "Brazil"@en ;
+    wikidata_predicate:P2132 "8717.19"^^xsd:float .
+
+<https://www.geonames.org/countries/BRB/> a schema:Country ;
+    rdfs:label "Barbados"@en ;
+    wikidata_predicate:P2132 "18148.24"^^xsd:float .
+
+<https://www.geonames.org/countries/BRN/> a schema:Country ;
+    rdfs:label "Brunei Darussalam"@en ;
+    wikidata_predicate:P2132 "31086.75"^^xsd:float .
+
+<https://www.geonames.org/countries/BTN/> a schema:Country ;
+    rdfs:label "Bhutan"@en ;
+    wikidata_predicate:P2132 "3316.18"^^xsd:float .
+
+<https://www.geonames.org/countries/BWA/> a schema:Country ;
+    rdfs:label "Botswana"@en ;
+    wikidata_predicate:P2132 "7961.33"^^xsd:float .
+
+<https://www.geonames.org/countries/CAF/> a schema:Country ;
+    rdfs:label "Central African Republic"@en ;
+    wikidata_predicate:P2132 "467.91"^^xsd:float .
+
+<https://www.geonames.org/countries/CAN/> a schema:Country ;
+    rdfs:label "Canada"@en ;
+    wikidata_predicate:P2132 "46194.73"^^xsd:float .
+
+<https://www.geonames.org/countries/CEB/> a schema:Country ;
+    rdfs:label "Central Europe and the Baltics"@en ;
+    wikidata_predicate:P2132 "16300.79"^^xsd:float .
+
+<https://www.geonames.org/countries/CHE/> a schema:Country ;
+    rdfs:label "Switzerland"@en ;
+    wikidata_predicate:P2132 "81993.73"^^xsd:float .
+
+<https://www.geonames.org/countries/CHL/> a schema:Country ;
+    rdfs:label "Chile"@en ;
+    wikidata_predicate:P2132 "14896.45"^^xsd:float .
+
+<https://www.geonames.org/countries/CHN/> a schema:Country ;
+    rdfs:label "China"@en ;
+    wikidata_predicate:P2132 "10261.68"^^xsd:float .
+
+<https://www.geonames.org/countries/CIV/> a schema:Country ;
+    rdfs:label "Cote d'Ivoire"@en ;
+    wikidata_predicate:P2132 "2276.33"^^xsd:float .
+
+<https://www.geonames.org/countries/CMR/> a schema:Country ;
+    rdfs:label "Cameroon"@en ;
+    wikidata_predicate:P2132 "1507.45"^^xsd:float .
+
+<https://www.geonames.org/countries/COD/> a schema:Country ;
+    rdfs:label "Congo, Dem. Rep."@en ;
+    wikidata_predicate:P2132 "580.72"^^xsd:float .
+
+<https://www.geonames.org/countries/COG/> a schema:Country ;
+    rdfs:label "Congo, Rep."@en ;
+    wikidata_predicate:P2132 "2279.97"^^xsd:float .
+
+<https://www.geonames.org/countries/COL/> a schema:Country ;
+    rdfs:label "Colombia"@en ;
+    wikidata_predicate:P2132 "6428.68"^^xsd:float .
+
+<https://www.geonames.org/countries/COM/> a schema:Country ;
+    rdfs:label "Comoros"@en ;
+    wikidata_predicate:P2132 "1370.15"^^xsd:float .
+
+<https://www.geonames.org/countries/CPV/> a schema:Country ;
+    rdfs:label "Cabo Verde"@en ;
+    wikidata_predicate:P2132 "3603.78"^^xsd:float .
+
+<https://www.geonames.org/countries/CRI/> a schema:Country ;
+    rdfs:label "Costa Rica"@en ;
+    wikidata_predicate:P2132 "12243.81"^^xsd:float .
+
+<https://www.geonames.org/countries/CSS/> a schema:Country ;
+    rdfs:label "Caribbean small states"@en ;
+    wikidata_predicate:P2132 "10500.97"^^xsd:float .
+
+<https://www.geonames.org/countries/CUW/> a schema:Country ;
+    rdfs:label "Curacao"@en ;
+    wikidata_predicate:P2132 "19689.14"^^xsd:float .
+
+<https://www.geonames.org/countries/CYP/> a schema:Country ;
+    rdfs:label "Cyprus"@en ;
+    wikidata_predicate:P2132 "27858.37"^^xsd:float .
+
+<https://www.geonames.org/countries/CZE/> a schema:Country ;
+    rdfs:label "Czech Republic"@en ;
+    wikidata_predicate:P2132 "23494.6"^^xsd:float .
+
+<https://www.geonames.org/countries/DEU/> a schema:Country ;
+    rdfs:label "Germany"@en ;
+    wikidata_predicate:P2132 "46445.25"^^xsd:float .
+
+<https://www.geonames.org/countries/DJI/> a schema:Country ;
+    rdfs:label "Djibouti"@en ;
+    wikidata_predicate:P2132 "3414.92"^^xsd:float .
+
+<https://www.geonames.org/countries/DMA/> a schema:Country ;
+    rdfs:label "Dominica"@en ;
+    wikidata_predicate:P2132 "8110.57"^^xsd:float .
+
+<https://www.geonames.org/countries/DNK/> a schema:Country ;
+    rdfs:label "Denmark"@en ;
+    wikidata_predicate:P2132 "60170.34"^^xsd:float .
+
+<https://www.geonames.org/countries/DOM/> a schema:Country ;
+    rdfs:label "Dominican Republic"@en ;
+    wikidata_predicate:P2132 "8282.12"^^xsd:float .
+
+<https://www.geonames.org/countries/DZA/> a schema:Country ;
+    rdfs:label "Algeria"@en ;
+    wikidata_predicate:P2132 "3973.96"^^xsd:float .
+
+<https://www.geonames.org/countries/EAP/> a schema:Country ;
+    rdfs:label "East Asia & Pacific (excluding high income)"@en ;
+    wikidata_predicate:P2132 "8222.28"^^xsd:float .
+
+<https://www.geonames.org/countries/EAR/> a schema:Country ;
+    rdfs:label "Early-demographic dividend"@en ;
+    wikidata_predicate:P2132 "3644.01"^^xsd:float .
+
+<https://www.geonames.org/countries/EAS/> a schema:Country ;
+    rdfs:label "East Asia & Pacific"@en ;
+    wikidata_predicate:P2132 "11530.14"^^xsd:float .
+
+<https://www.geonames.org/countries/ECA/> a schema:Country ;
+    rdfs:label "Europe & Central Asia (excluding high income)"@en ;
+    wikidata_predicate:P2132 "8133.26"^^xsd:float .
+
+<https://www.geonames.org/countries/ECS/> a schema:Country ;
+    rdfs:label "Europe & Central Asia"@en ;
+    wikidata_predicate:P2132 "24744.14"^^xsd:float .
+
+<https://www.geonames.org/countries/ECU/> a schema:Country ;
+    rdfs:label "Ecuador"@en ;
+    wikidata_predicate:P2132 "6183.82"^^xsd:float .
+
+<https://www.geonames.org/countries/EGY/> a schema:Country ;
+    rdfs:label "Egypt, Arab Rep."@en ;
+    wikidata_predicate:P2132 "3019.21"^^xsd:float .
+
+<https://www.geonames.org/countries/EMU/> a schema:Country ;
+    rdfs:label "Euro area"@en ;
+    wikidata_predicate:P2132 "38984.69"^^xsd:float .
+
+<https://www.geonames.org/countries/ESP/> a schema:Country ;
+    rdfs:label "Spain"@en ;
+    wikidata_predicate:P2132 "29600.38"^^xsd:float .
+
+<https://www.geonames.org/countries/EST/> a schema:Country ;
+    rdfs:label "Estonia"@en ;
+    wikidata_predicate:P2132 "23723.31"^^xsd:float .
+
+<https://www.geonames.org/countries/ETH/> a schema:Country ;
+    rdfs:label "Ethiopia"@en ;
+    wikidata_predicate:P2132 "855.76"^^xsd:float .
+
+<https://www.geonames.org/countries/EUU/> a schema:Country ;
+    rdfs:label "European Union"@en ;
+    wikidata_predicate:P2132 "34918.5"^^xsd:float .
+
+<https://www.geonames.org/countries/FCS/> a schema:Country ;
+    rdfs:label "Fragile and conflict affected situations"@en ;
+    wikidata_predicate:P2132 "2228.26"^^xsd:float .
+
+<https://www.geonames.org/countries/FIN/> a schema:Country ;
+    rdfs:label "Finland"@en ;
+    wikidata_predicate:P2132 "48782.79"^^xsd:float .
+
+<https://www.geonames.org/countries/FJI/> a schema:Country ;
+    rdfs:label "Fiji"@en ;
+    wikidata_predicate:P2132 "6175.89"^^xsd:float .
+
+<https://www.geonames.org/countries/FRA/> a schema:Country ;
+    rdfs:label "France"@en ;
+    wikidata_predicate:P2132 "40493.93"^^xsd:float .
+
+<https://www.geonames.org/countries/GAB/> a schema:Country ;
+    rdfs:label "Gabon"@en ;
+    wikidata_predicate:P2132 "7767.01"^^xsd:float .
+
+<https://www.geonames.org/countries/GBR/> a schema:Country ;
+    rdfs:label "United Kingdom"@en ;
+    wikidata_predicate:P2132 "42330.12"^^xsd:float .
+
+<https://www.geonames.org/countries/GEO/> a schema:Country ;
+    rdfs:label "Georgia"@en ;
+    wikidata_predicate:P2132 "4697.7"^^xsd:float .
+
+<https://www.geonames.org/countries/GHA/> a schema:Country ;
+    rdfs:label "Ghana"@en ;
+    wikidata_predicate:P2132 "2202.12"^^xsd:float .
+
+<https://www.geonames.org/countries/GIN/> a schema:Country ;
+    rdfs:label "Guinea"@en ;
+    wikidata_predicate:P2132 "962.84"^^xsd:float .
+
+<https://www.geonames.org/countries/GMB/> a schema:Country ;
+    rdfs:label "Gambia, The"@en ;
+    wikidata_predicate:P2132 "777.81"^^xsd:float .
+
+<https://www.geonames.org/countries/GNB/> a schema:Country ;
+    rdfs:label "Guinea-Bissau"@en ;
+    wikidata_predicate:P2132 "697.29"^^xsd:float .
+
+<https://www.geonames.org/countries/GNQ/> a schema:Country ;
+    rdfs:label "Equatorial Guinea"@en ;
+    wikidata_predicate:P2132 "8131.92"^^xsd:float .
+
+<https://www.geonames.org/countries/GRC/> a schema:Country ;
+    rdfs:label "Greece"@en ;
+    wikidata_predicate:P2132 "19582.54"^^xsd:float .
+
+<https://www.geonames.org/countries/GRD/> a schema:Country ;
+    rdfs:label "Grenada"@en ;
+    wikidata_predicate:P2132 "10808.67"^^xsd:float .
+
+<https://www.geonames.org/countries/GTM/> a schema:Country ;
+    rdfs:label "Guatemala"@en ;
+    wikidata_predicate:P2132 "4619.99"^^xsd:float .
+
+<https://www.geonames.org/countries/GUY/> a schema:Country ;
+    rdfs:label "Guyana"@en ;
+    wikidata_predicate:P2132 "6609.59"^^xsd:float .
+
+<https://www.geonames.org/countries/HIC/> a schema:Country ;
+    rdfs:label "High income"@en ;
+    wikidata_predicate:P2132 "44617.48"^^xsd:float .
+
+<https://www.geonames.org/countries/HKG/> a schema:Country ;
+    rdfs:label "Hong Kong SAR, China"@en ;
+    wikidata_predicate:P2132 "48713.47"^^xsd:float .
+
+<https://www.geonames.org/countries/HND/> a schema:Country ;
+    rdfs:label "Honduras"@en ;
+    wikidata_predicate:P2132 "2574.91"^^xsd:float .
+
+<https://www.geonames.org/countries/HPC/> a schema:Country ;
+    rdfs:label "Heavily indebted poor countries (HIPC)"@en ;
+    wikidata_predicate:P2132 "976.74"^^xsd:float .
+
+<https://www.geonames.org/countries/HRV/> a schema:Country ;
+    rdfs:label "Croatia"@en ;
+    wikidata_predicate:P2132 "14936.1"^^xsd:float .
+
+<https://www.geonames.org/countries/HTI/> a schema:Country ;
+    rdfs:label "Haiti"@en ;
+    wikidata_predicate:P2132 "1272.49"^^xsd:float .
+
+<https://www.geonames.org/countries/HUN/> a schema:Country ;
+    rdfs:label "Hungary"@en ;
+    wikidata_predicate:P2132 "16731.82"^^xsd:float .
+
+<https://www.geonames.org/countries/IBD/> a schema:Country ;
+    rdfs:label "IBRD only"@en ;
+    wikidata_predicate:P2132 "6561.99"^^xsd:float .
+
+<https://www.geonames.org/countries/IBT/> a schema:Country ;
+    rdfs:label "IDA & IBRD total"@en ;
+    wikidata_predicate:P2132 "5228.54"^^xsd:float .
+
+<https://www.geonames.org/countries/IDA/> a schema:Country ;
+    rdfs:label "IDA total"@en ;
+    wikidata_predicate:P2132 "1388.83"^^xsd:float .
+
+<https://www.geonames.org/countries/IDB/> a schema:Country ;
+    rdfs:label "IDA blend"@en ;
+    wikidata_predicate:P2132 "1765.66"^^xsd:float .
+
+<https://www.geonames.org/countries/IDN/> a schema:Country ;
+    rdfs:label "Indonesia"@en ;
+    wikidata_predicate:P2132 "4135.57"^^xsd:float .
+
+<https://www.geonames.org/countries/IDX/> a schema:Country ;
+    rdfs:label "IDA only"@en ;
+    wikidata_predicate:P2132 "1200.92"^^xsd:float .
+
+<https://www.geonames.org/countries/IND/> a schema:Country ;
+    rdfs:label "India"@en ;
+    wikidata_predicate:P2132 "2099.6"^^xsd:float .
+
+<https://www.geonames.org/countries/IRL/> a schema:Country ;
+    rdfs:label "Ireland"@en ;
+    wikidata_predicate:P2132 "78660.96"^^xsd:float .
+
+<https://www.geonames.org/countries/IRQ/> a schema:Country ;
+    rdfs:label "Iraq"@en ;
+    wikidata_predicate:P2132 "5955.11"^^xsd:float .
+
+<https://www.geonames.org/countries/ISL/> a schema:Country ;
+    rdfs:label "Iceland"@en ;
+    wikidata_predicate:P2132 "66944.83"^^xsd:float .
+
+<https://www.geonames.org/countries/ISR/> a schema:Country ;
+    rdfs:label "Israel"@en ;
+    wikidata_predicate:P2132 "43592.08"^^xsd:float .
+
+<https://www.geonames.org/countries/ITA/> a schema:Country ;
+    rdfs:label "Italy"@en ;
+    wikidata_predicate:P2132 "33228.24"^^xsd:float .
+
+<https://www.geonames.org/countries/JAM/> a schema:Country ;
+    rdfs:label "Jamaica"@en ;
+    wikidata_predicate:P2132 "5582.26"^^xsd:float .
+
+<https://www.geonames.org/countries/JOR/> a schema:Country ;
+    rdfs:label "Jordan"@en ;
+    wikidata_predicate:P2132 "4405.49"^^xsd:float .
+
+<https://www.geonames.org/countries/JPN/> a schema:Country ;
+    rdfs:label "Japan"@en ;
+    wikidata_predicate:P2132 "40246.88"^^xsd:float .
+
+<https://www.geonames.org/countries/KAZ/> a schema:Country ;
+    rdfs:label "Kazakhstan"@en ;
+    wikidata_predicate:P2132 "9812.39"^^xsd:float .
+
+<https://www.geonames.org/countries/KEN/> a schema:Country ;
+    rdfs:label "Kenya"@en ;
+    wikidata_predicate:P2132 "1816.55"^^xsd:float .
+
+<https://www.geonames.org/countries/KGZ/> a schema:Country ;
+    rdfs:label "Kyrgyz Republic"@en ;
+    wikidata_predicate:P2132 "1309.39"^^xsd:float .
+
+<https://www.geonames.org/countries/KHM/> a schema:Country ;
+    rdfs:label "Cambodia"@en ;
+    wikidata_predicate:P2132 "1643.12"^^xsd:float .
+
+<https://www.geonames.org/countries/KIR/> a schema:Country ;
+    rdfs:label "Kiribati"@en ;
+    wikidata_predicate:P2132 "1655.08"^^xsd:float .
+
+<https://www.geonames.org/countries/KNA/> a schema:Country ;
+    rdfs:label "St. Kitts and Nevis"@en ;
+    wikidata_predicate:P2132 "19934.97"^^xsd:float .
+
+<https://www.geonames.org/countries/KOR/> a schema:Country ;
+    rdfs:label "Korea, Rep."@en ;
+    wikidata_predicate:P2132 "31846.22"^^xsd:float .
+
+<https://www.geonames.org/countries/KWT/> a schema:Country ;
+    rdfs:label "Kuwait"@en ;
+    wikidata_predicate:P2132 "32000.45"^^xsd:float .
+
+<https://www.geonames.org/countries/LAC/> a schema:Country ;
+    rdfs:label "Latin America & Caribbean (excluding high income)"@en ;
+    wikidata_predicate:P2132 "8390.06"^^xsd:float .
+
+<https://www.geonames.org/countries/LAO/> a schema:Country ;
+    rdfs:label "Lao PDR"@en ;
+    wikidata_predicate:P2132 "2534.9"^^xsd:float .
+
+<https://www.geonames.org/countries/LBN/> a schema:Country ;
+    rdfs:label "Lebanon"@en ;
+    wikidata_predicate:P2132 "7583.69"^^xsd:float .
+
+<https://www.geonames.org/countries/LBR/> a schema:Country ;
+    rdfs:label "Liberia"@en ;
+    wikidata_predicate:P2132 "621.89"^^xsd:float .
+
+<https://www.geonames.org/countries/LBY/> a schema:Country ;
+    rdfs:label "Libya"@en ;
+    wikidata_predicate:P2132 "7685.95"^^xsd:float .
+
+<https://www.geonames.org/countries/LCA/> a schema:Country ;
+    rdfs:label "St. Lucia"@en ;
+    wikidata_predicate:P2132 "11611.42"^^xsd:float .
+
+<https://www.geonames.org/countries/LCN/> a schema:Country ;
+    rdfs:label "Latin America & Caribbean"@en ;
+    wikidata_predicate:P2132 "8869.89"^^xsd:float .
+
+<https://www.geonames.org/countries/LDC/> a schema:Country ;
+    rdfs:label "Least developed countries: UN classification"@en ;
+    wikidata_predicate:P2132 "1079.2"^^xsd:float .
+
+<https://www.geonames.org/countries/LIC/> a schema:Country ;
+    rdfs:label "Low income"@en ;
+    wikidata_predicate:P2132 "810.09"^^xsd:float .
+
+<https://www.geonames.org/countries/LKA/> a schema:Country ;
+    rdfs:label "Sri Lanka"@en ;
+    wikidata_predicate:P2132 "3853.08"^^xsd:float .
+
+<https://www.geonames.org/countries/LMC/> a schema:Country ;
+    rdfs:label "Lower middle income"@en ;
+    wikidata_predicate:P2132 "2174.44"^^xsd:float .
+
+<https://www.geonames.org/countries/LMY/> a schema:Country ;
+    rdfs:label "Low & middle income"@en ;
+    wikidata_predicate:P2132 "5080.88"^^xsd:float .
+
+<https://www.geonames.org/countries/LSO/> a schema:Country ;
+    rdfs:label "Lesotho"@en ;
+    wikidata_predicate:P2132 "1118.13"^^xsd:float .
+
+<https://www.geonames.org/countries/LTE/> a schema:Country ;
+    rdfs:label "Late-demographic dividend"@en ;
+    wikidata_predicate:P2132 "9999.49"^^xsd:float .
+
+<https://www.geonames.org/countries/LTU/> a schema:Country ;
+    rdfs:label "Lithuania"@en ;
+    wikidata_predicate:P2132 "19601.89"^^xsd:float .
+
+<https://www.geonames.org/countries/LUX/> a schema:Country ;
+    rdfs:label "Luxembourg"@en ;
+    wikidata_predicate:P2132 "114704.59"^^xsd:float .
+
+<https://www.geonames.org/countries/LVA/> a schema:Country ;
+    rdfs:label "Latvia"@en ;
+    wikidata_predicate:P2132 "17828.89"^^xsd:float .
+
+<https://www.geonames.org/countries/MAC/> a schema:Country ;
+    rdfs:label "Macao SAR, China"@en ;
+    wikidata_predicate:P2132 "84096.4"^^xsd:float .
+
+<https://www.geonames.org/countries/MAR/> a schema:Country ;
+    rdfs:label "Morocco"@en ;
+    wikidata_predicate:P2132 "3204.1"^^xsd:float .
+
+<https://www.geonames.org/countries/MDA/> a schema:Country ;
+    rdfs:label "Moldova"@en ;
+    wikidata_predicate:P2132 "4503.52"^^xsd:float .
+
+<https://www.geonames.org/countries/MDG/> a schema:Country ;
+    rdfs:label "Madagascar"@en ;
+    wikidata_predicate:P2132 "523.36"^^xsd:float .
+
+<https://www.geonames.org/countries/MDV/> a schema:Country ;
+    rdfs:label "Maldives"@en ;
+    wikidata_predicate:P2132 "10626.51"^^xsd:float .
+
+<https://www.geonames.org/countries/MEA/> a schema:Country ;
+    rdfs:label "Middle East & North Africa"@en ;
+    wikidata_predicate:P2132 "7991.13"^^xsd:float .
+
+<https://www.geonames.org/countries/MEX/> a schema:Country ;
+    rdfs:label "Mexico"@en ;
+    wikidata_predicate:P2132 "9946.03"^^xsd:float .
+
+<https://www.geonames.org/countries/MIC/> a schema:Country ;
+    rdfs:label "Middle income"@en ;
+    wikidata_predicate:P2132 "5573.24"^^xsd:float .
+
+<https://www.geonames.org/countries/MKD/> a schema:Country ;
+    rdfs:label "North Macedonia"@en ;
+    wikidata_predicate:P2132 "6022.22"^^xsd:float .
+
+<https://www.geonames.org/countries/MLI/> a schema:Country ;
+    rdfs:label "Mali"@en ;
+    wikidata_predicate:P2132 "879.01"^^xsd:float .
+
+<https://www.geonames.org/countries/MLT/> a schema:Country ;
+    rdfs:label "Malta"@en ;
+    wikidata_predicate:P2132 "29820.6"^^xsd:float .
+
+<https://www.geonames.org/countries/MMR/> a schema:Country ;
+    rdfs:label "Myanmar"@en ;
+    wikidata_predicate:P2132 "1407.81"^^xsd:float .
+
+<https://www.geonames.org/countries/MNE/> a schema:Country ;
+    rdfs:label "Montenegro"@en ;
+    wikidata_predicate:P2132 "8908.93"^^xsd:float .
+
+<https://www.geonames.org/countries/MNG/> a schema:Country ;
+    rdfs:label "Mongolia"@en ;
+    wikidata_predicate:P2132 "4339.84"^^xsd:float .
+
+<https://www.geonames.org/countries/MOZ/> a schema:Country ;
+    rdfs:label "Mozambique"@en ;
+    wikidata_predicate:P2132 "503.57"^^xsd:float .
+
+<https://www.geonames.org/countries/MRT/> a schema:Country ;
+    rdfs:label "Mauritania"@en ;
+    wikidata_predicate:P2132 "1679.44"^^xsd:float .
+
+<https://www.geonames.org/countries/MUS/> a schema:Country ;
+    rdfs:label "Mauritius"@en ;
+    wikidata_predicate:P2132 "11099.24"^^xsd:float .
+
+<https://www.geonames.org/countries/MWI/> a schema:Country ;
+    rdfs:label "Malawi"@en ;
+    wikidata_predicate:P2132 "411.55"^^xsd:float .
+
+<https://www.geonames.org/countries/MYS/> a schema:Country ;
+    rdfs:label "Malaysia"@en ;
+    wikidata_predicate:P2132 "11414.21"^^xsd:float .
+
+<https://www.geonames.org/countries/NAC/> a schema:Country ;
+    rdfs:label "North America"@en ;
+    wikidata_predicate:P2132 "63344.08"^^xsd:float .
+
+<https://www.geonames.org/countries/NAM/> a schema:Country ;
+    rdfs:label "Namibia"@en ;
+    wikidata_predicate:P2132 "4957.46"^^xsd:float .
+
+<https://www.geonames.org/countries/NER/> a schema:Country ;
+    rdfs:label "Niger"@en ;
+    wikidata_predicate:P2132 "553.9"^^xsd:float .
+
+<https://www.geonames.org/countries/NGA/> a schema:Country ;
+    rdfs:label "Nigeria"@en ;
+    wikidata_predicate:P2132 "2229.86"^^xsd:float .
+
+<https://www.geonames.org/countries/NIC/> a schema:Country ;
+    rdfs:label "Nicaragua"@en ;
+    wikidata_predicate:P2132 "1912.9"^^xsd:float .
+
+<https://www.geonames.org/countries/NLD/> a schema:Country ;
+    rdfs:label "Netherlands"@en ;
+    wikidata_predicate:P2132 "52331.32"^^xsd:float .
+
+<https://www.geonames.org/countries/NOR/> a schema:Country ;
+    rdfs:label "Norway"@en ;
+    wikidata_predicate:P2132 "75419.63"^^xsd:float .
+
+<https://www.geonames.org/countries/NPL/> a schema:Country ;
+    rdfs:label "Nepal"@en ;
+    wikidata_predicate:P2132 "1071.05"^^xsd:float .
+
+<https://www.geonames.org/countries/NRU/> a schema:Country ;
+    rdfs:label "Nauru"@en ;
+    wikidata_predicate:P2132 "9396.98"^^xsd:float .
+
+<https://www.geonames.org/countries/NZL/> a schema:Country ;
+    rdfs:label "New Zealand"@en ;
+    wikidata_predicate:P2132 "42084.35"^^xsd:float .
+
+<https://www.geonames.org/countries/OED/> a schema:Country ;
+    rdfs:label "OECD members"@en ;
+    wikidata_predicate:P2132 "39485.89"^^xsd:float .
+
+<https://www.geonames.org/countries/OMN/> a schema:Country ;
+    rdfs:label "Oman"@en ;
+    wikidata_predicate:P2132 "15343.06"^^xsd:float .
+
+<https://www.geonames.org/countries/OSS/> a schema:Country ;
+    rdfs:label "Other small states"@en ;
+    wikidata_predicate:P2132 "13778.29"^^xsd:float .
+
+<https://www.geonames.org/countries/PAK/> a schema:Country ;
+    rdfs:label "Pakistan"@en ;
+    wikidata_predicate:P2132 "1284.7"^^xsd:float .
+
+<https://www.geonames.org/countries/PAN/> a schema:Country ;
+    rdfs:label "Panama"@en ;
+    wikidata_predicate:P2132 "15731.02"^^xsd:float .
+
+<https://www.geonames.org/countries/PER/> a schema:Country ;
+    rdfs:label "Peru"@en ;
+    wikidata_predicate:P2132 "6977.7"^^xsd:float .
+
+<https://www.geonames.org/countries/PHL/> a schema:Country ;
+    rdfs:label "Philippines"@en ;
+    wikidata_predicate:P2132 "3485.08"^^xsd:float .
+
+<https://www.geonames.org/countries/PLW/> a schema:Country ;
+    rdfs:label "Palau"@en ;
+    wikidata_predicate:P2132 "14901.98"^^xsd:float .
+
+<https://www.geonames.org/countries/PNG/> a schema:Country ;
+    rdfs:label "Papua New Guinea"@en ;
+    wikidata_predicate:P2132 "2829.17"^^xsd:float .
+
+<https://www.geonames.org/countries/POL/> a schema:Country ;
+    rdfs:label "Poland"@en ;
+    wikidata_predicate:P2132 "15692.51"^^xsd:float .
+
+<https://www.geonames.org/countries/PRE/> a schema:Country ;
+    rdfs:label "Pre-demographic dividend"@en ;
+    wikidata_predicate:P2132 "1485.65"^^xsd:float .
+
+<https://www.geonames.org/countries/PRI/> a schema:Country ;
+    rdfs:label "Puerto Rico"@en ;
+    wikidata_predicate:P2132 "32873.72"^^xsd:float .
+
+<https://www.geonames.org/countries/PRT/> a schema:Country ;
+    rdfs:label "Portugal"@en ;
+    wikidata_predicate:P2132 "23252.06"^^xsd:float .
+
+<https://www.geonames.org/countries/PRY/> a schema:Country ;
+    rdfs:label "Paraguay"@en ;
+    wikidata_predicate:P2132 "5414.8"^^xsd:float .
+
+<https://www.geonames.org/countries/PSS/> a schema:Country ;
+    rdfs:label "Pacific island small states"@en ;
+    wikidata_predicate:P2132 "4264.67"^^xsd:float .
+
+<https://www.geonames.org/countries/PST/> a schema:Country ;
+    rdfs:label "Post-demographic dividend"@en ;
+    wikidata_predicate:P2132 "45618.89"^^xsd:float .
+
+<https://www.geonames.org/countries/QAT/> a schema:Country ;
+    rdfs:label "Qatar"@en ;
+    wikidata_predicate:P2132 "62088.06"^^xsd:float .
+
+<https://www.geonames.org/countries/ROU/> a schema:Country ;
+    rdfs:label "Romania"@en ;
+    wikidata_predicate:P2132 "12919.53"^^xsd:float .
+
+<https://www.geonames.org/countries/RUS/> a schema:Country ;
+    rdfs:label "Russian Federation"@en ;
+    wikidata_predicate:P2132 "11585.0"^^xsd:float .
+
+<https://www.geonames.org/countries/RWA/> a schema:Country ;
+    rdfs:label "Rwanda"@en ;
+    wikidata_predicate:P2132 "820.03"^^xsd:float .
+
+<https://www.geonames.org/countries/SAS/> a schema:Country ;
+    rdfs:label "South Asia"@en ;
+    wikidata_predicate:P2132 "1956.58"^^xsd:float .
+
+<https://www.geonames.org/countries/SAU/> a schema:Country ;
+    rdfs:label "Saudi Arabia"@en ;
+    wikidata_predicate:P2132 "23139.8"^^xsd:float .
+
+<https://www.geonames.org/countries/SDN/> a schema:Country ;
+    rdfs:label "Sudan"@en ;
+    wikidata_predicate:P2132 "441.51"^^xsd:float .
+
+<https://www.geonames.org/countries/SEN/> a schema:Country ;
+    rdfs:label "Senegal"@en ;
+    wikidata_predicate:P2132 "1446.83"^^xsd:float .
+
+<https://www.geonames.org/countries/SGP/> a schema:Country ;
+    rdfs:label "Singapore"@en ;
+    wikidata_predicate:P2132 "65233.28"^^xsd:float .
+
+<https://www.geonames.org/countries/SLB/> a schema:Country ;
+    rdfs:label "Solomon Islands"@en ;
+    wikidata_predicate:P2132 "2373.63"^^xsd:float .
+
+<https://www.geonames.org/countries/SLE/> a schema:Country ;
+    rdfs:label "Sierra Leone"@en ;
+    wikidata_predicate:P2132 "527.53"^^xsd:float .
+
+<https://www.geonames.org/countries/SLV/> a schema:Country ;
+    rdfs:label "El Salvador"@en ;
+    wikidata_predicate:P2132 "4187.25"^^xsd:float .
+
+<https://www.geonames.org/countries/SRB/> a schema:Country ;
+    rdfs:label "Serbia"@en ;
+    wikidata_predicate:P2132 "7411.84"^^xsd:float .
+
+<https://www.geonames.org/countries/SSA/> a schema:Country ;
+    rdfs:label "Sub-Saharan Africa (excluding high income)"@en ;
+    wikidata_predicate:P2132 "1583.93"^^xsd:float .
+
+<https://www.geonames.org/countries/SSF/> a schema:Country ;
+    rdfs:label "Sub-Saharan Africa"@en ;
+    wikidata_predicate:P2132 "1596.21"^^xsd:float .
+
+<https://www.geonames.org/countries/SST/> a schema:Country ;
+    rdfs:label "Small states"@en ;
+    wikidata_predicate:P2132 "12615.47"^^xsd:float .
+
+<https://www.geonames.org/countries/STP/> a schema:Country ;
+    rdfs:label "Sao Tome and Principe"@en ;
+    wikidata_predicate:P2132 "1946.64"^^xsd:float .
+
+<https://www.geonames.org/countries/SUR/> a schema:Country ;
+    rdfs:label "Suriname"@en ;
+    wikidata_predicate:P2132 "6359.83"^^xsd:float .
+
+<https://www.geonames.org/countries/SVK/> a schema:Country ;
+    rdfs:label "Slovak Republic"@en ;
+    wikidata_predicate:P2132 "19266.28"^^xsd:float .
+
+<https://www.geonames.org/countries/SVN/> a schema:Country ;
+    rdfs:label "Slovenia"@en ;
+    wikidata_predicate:P2132 "25946.18"^^xsd:float .
+
+<https://www.geonames.org/countries/SWE/> a schema:Country ;
+    rdfs:label "Sweden"@en ;
+    wikidata_predicate:P2132 "51615.02"^^xsd:float .
+
+<https://www.geonames.org/countries/SWZ/> a schema:Country ;
+    rdfs:label "Eswatini"@en ;
+    wikidata_predicate:P2132 "3894.68"^^xsd:float .
+
+<https://www.geonames.org/countries/SYC/> a schema:Country ;
+    rdfs:label "Seychelles"@en ;
+    wikidata_predicate:P2132 "17448.27"^^xsd:float .
+
+<https://www.geonames.org/countries/TCA/> a schema:Country ;
+    rdfs:label "Turks and Caicos Islands"@en ;
+    wikidata_predicate:P2132 "31353.33"^^xsd:float .
+
+<https://www.geonames.org/countries/TCD/> a schema:Country ;
+    rdfs:label "Chad"@en ;
+    wikidata_predicate:P2132 "709.54"^^xsd:float .
+
+<https://www.geonames.org/countries/TEA/> a schema:Country ;
+    rdfs:label "East Asia & Pacific (IDA & IBRD countries)"@en ;
+    wikidata_predicate:P2132 "8308.52"^^xsd:float .
+
+<https://www.geonames.org/countries/TEC/> a schema:Country ;
+    rdfs:label "Europe & Central Asia (IDA & IBRD countries)"@en ;
+    wikidata_predicate:P2132 "9017.28"^^xsd:float .
+
+<https://www.geonames.org/countries/TGO/> a schema:Country ;
+    rdfs:label "Togo"@en ;
+    wikidata_predicate:P2132 "679.29"^^xsd:float .
+
+<https://www.geonames.org/countries/THA/> a schema:Country ;
+    rdfs:label "Thailand"@en ;
+    wikidata_predicate:P2132 "7806.74"^^xsd:float .
+
+<https://www.geonames.org/countries/TJK/> a schema:Country ;
+    rdfs:label "Tajikistan"@en ;
+    wikidata_predicate:P2132 "870.79"^^xsd:float .
+
+<https://www.geonames.org/countries/TLA/> a schema:Country ;
+    rdfs:label "Latin America & the Caribbean (IDA & IBRD countries)"@en ;
+    wikidata_predicate:P2132 "8702.14"^^xsd:float .
+
+<https://www.geonames.org/countries/TLS/> a schema:Country ;
+    rdfs:label "Timor-Leste"@en ;
+    wikidata_predicate:P2132 "1560.51"^^xsd:float .
+
+<https://www.geonames.org/countries/TON/> a schema:Country ;
+    rdfs:label "Tonga"@en ;
+    wikidata_predicate:P2132 "4903.15"^^xsd:float .
+
+<https://www.geonames.org/countries/TSA/> a schema:Country ;
+    rdfs:label "South Asia (IDA & IBRD)"@en ;
+    wikidata_predicate:P2132 "1956.58"^^xsd:float .
+
+<https://www.geonames.org/countries/TSS/> a schema:Country ;
+    rdfs:label "Sub-Saharan Africa (IDA & IBRD countries)"@en ;
+    wikidata_predicate:P2132 "1596.21"^^xsd:float .
+
+<https://www.geonames.org/countries/TTO/> a schema:Country ;
+    rdfs:label "Trinidad and Tobago"@en ;
+    wikidata_predicate:P2132 "17397.98"^^xsd:float .
+
+<https://www.geonames.org/countries/TUN/> a schema:Country ;
+    rdfs:label "Tunisia"@en ;
+    wikidata_predicate:P2132 "3317.45"^^xsd:float .
+
+<https://www.geonames.org/countries/TUR/> a schema:Country ;
+    rdfs:label "Turkey"@en ;
+    wikidata_predicate:P2132 "9126.56"^^xsd:float .
+
+<https://www.geonames.org/countries/TUV/> a schema:Country ;
+    rdfs:label "Tuvalu"@en ;
+    wikidata_predicate:P2132 "4059.03"^^xsd:float .
+
+<https://www.geonames.org/countries/TZA/> a schema:Country ;
+    rdfs:label "Tanzania"@en ;
+    wikidata_predicate:P2132 "1122.12"^^xsd:float .
+
+<https://www.geonames.org/countries/UGA/> a schema:Country ;
+    rdfs:label "Uganda"@en ;
+    wikidata_predicate:P2132 "794.34"^^xsd:float .
+
+<https://www.geonames.org/countries/UKR/> a schema:Country ;
+    rdfs:label "Ukraine"@en ;
+    wikidata_predicate:P2132 "3659.03"^^xsd:float .
+
+<https://www.geonames.org/countries/UMC/> a schema:Country ;
+    rdfs:label "Upper middle income"@en ;
+    wikidata_predicate:P2132 "9036.77"^^xsd:float .
+
+<https://www.geonames.org/countries/URY/> a schema:Country ;
+    rdfs:label "Uruguay"@en ;
+    wikidata_predicate:P2132 "16190.13"^^xsd:float .
+
+<https://www.geonames.org/countries/USA/> a schema:Country ;
+    rdfs:label "United States"@en ;
+    wikidata_predicate:P2132 "65297.52"^^xsd:float .
+
+<https://www.geonames.org/countries/UZB/> a schema:Country ;
+    rdfs:label "Uzbekistan"@en ;
+    wikidata_predicate:P2132 "1724.84"^^xsd:float .
+
+<https://www.geonames.org/countries/VCT/> a schema:Country ;
+    rdfs:label "St. Vincent and the Grenadines"@en ;
+    wikidata_predicate:P2132 "7457.51"^^xsd:float .
+
+<https://www.geonames.org/countries/VNM/> a schema:Country ;
+    rdfs:label "Vietnam"@en ;
+    wikidata_predicate:P2132 "2715.28"^^xsd:float .
+
+<https://www.geonames.org/countries/VUT/> a schema:Country ;
+    rdfs:label "Vanuatu"@en ;
+    wikidata_predicate:P2132 "3115.36"^^xsd:float .
+
+<https://www.geonames.org/countries/WLD/> a schema:Country ;
+    rdfs:label "World"@en ;
+    wikidata_predicate:P2132 "11441.73"^^xsd:float .
+
+<https://www.geonames.org/countries/WSM/> a schema:Country ;
+    rdfs:label "Samoa"@en ;
+    wikidata_predicate:P2132 "4324.01"^^xsd:float .
+
+<https://www.geonames.org/countries/XKX/> a schema:Country ;
+    rdfs:label "Kosovo"@en ;
+    wikidata_predicate:P2132 "4417.52"^^xsd:float .
+
+<https://www.geonames.org/countries/YEM/> a schema:Country ;
+    rdfs:label "Yemen, Rep."@en ;
+    wikidata_predicate:P2132 "774.33"^^xsd:float .
+
+<https://www.geonames.org/countries/ZAF/> a schema:Country ;
+    rdfs:label "South Africa"@en ;
+    wikidata_predicate:P2132 "6001.4"^^xsd:float .
+
+<https://www.geonames.org/countries/ZMB/> a schema:Country ;
+    rdfs:label "Zambia"@en ;
+    wikidata_predicate:P2132 "1305.06"^^xsd:float .
+
+<https://www.geonames.org/countries/ZWE/> a schema:Country ;
+    rdfs:label "Zimbabwe"@en ;
+    wikidata_predicate:P2132 "1463.99"^^xsd:float .
+

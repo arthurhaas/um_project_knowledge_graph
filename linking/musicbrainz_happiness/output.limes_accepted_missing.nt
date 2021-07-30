@@ -1,0 +1,11 @@
+#	congo_(brazzaville)		-> CG Congo (capital city)
+#	congo_(kinshasa)		-> CD Democratic Republic of the Congo (capital city)
+#	ivory_coast				-> CI Côte d'Ivoire
+#	trinidad_&_tobago		-> TT
+#	northern_cyprus			-> not a country, region only https://www.geonames.org/8220545/northern-cyprus.html
+#	palestinian_territories -> not a country, https://en.wikipedia.org/wiki/Palestinian_territories
+
+<https://www.geonames.org/countries/CG/> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/um/ken4256/project/area/congo_brazzaville> .
+<https://www.geonames.org/countries/CD/> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/um/ken4256/project/area/congo_kinshasa> .
+<https://www.geonames.org/countries/TT/> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/um/ken4256/project/area/ivory_coast> .
+<https://www.geonames.org/countries/TT/> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/um/ken4256/project/area/trinidad_%26_tobago> .

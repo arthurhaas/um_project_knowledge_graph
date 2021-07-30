@@ -1,0 +1,147 @@
+prefixes:
+  # general ontologies & functions
+  owl: http://www.w3.org/2002/07/owl#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  grel: "http://users.ugent.be/~bjdmeest/function/grel.ttl#"
+  schema: "https://schema.org/"
+  # Own namespace
+  project_area: "https://w3id.org/um/ken4256/project/area/"
+  project_ontology: "https://w3id.org/um/ken4256/project/ontology/"
+
+
+mappings:
+
+  happinessScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+
+    # For the area subject:
+    # Goal: Escape area string, i.e.
+    #       space " " to underscore "_"
+    #       brackets "(", ")" to nothing ""
+    # Have tried following methods in the po section:
+    # - Method 1: grel:escape -> Didn't change the string.
+    # - Method 2: grel:string_replace -> functions not implemented: https://users.ugent.be/~bjdmeest/function/grel.ttl#
+    # - Method 3: Split string on space and join using underscore "_". Issue: No argument was found for following parameter: http://users.ugent.be/~bjdmeest/function/grel.ttl#p_array_a
+    # Hence: Won't use YARRRML functions, but will do preprocessing in python.
+    s: project_area:$(Country or region ID)
+    po:
+      #- p: project_area:method_1
+      #  o:
+      #    function: grel:escape
+      #    parameters:
+      #      - parameter: grel:valueParameter
+      #        value: $(Country or region)
+      #      - parameter: grel:modeParameter
+      #        value: html
+      #    language: en
+      #- p: project_area:method_2
+      #  o:
+      #    function: grel:string_replace
+      #    parameters:
+      #      - parameter: grel:valueParam
+      #        value: $(Country or region)
+      #      - parameter: grel:param_find
+      #        value: " "
+      #      - parameter: grel:param_replace
+      #        value: "_"
+      #    language: en
+      #- p: project_area:method_3
+      #  o:
+      #    function: grel:array_join
+      #    parameters:
+      #      - parameter: grel:valueParameter
+      #        value:
+      #          function: grel:string_split
+      #          parameters:
+      #          - parameter: grel:valueParameter
+      #            value: $(Country or region)
+      #          - parameter: grel:p_string_sep
+      #            value: " "
+      #      - parameter: grel:p_string_sep
+      #        value: "_"
+      #    language: en # implies that datatype: text
+      - [a, schema:AdministrativeArea]
+      - [rdfs:label, $(Country or region), en~lang]
+      - [project_ontology:hasHappinessScore, $(Score), xsd:float]
+      - [project_ontology:hasSocialSupportScore, $(Social support), xsd:float]
+      - [project_ontology:hasHealthyLifeExpectancyScore, $(Healthy life expectancy), xsd:float]
+      - [project_ontology:hasFreedomToMakeChoicesScore, $(Freedom to make life choices), xsd:float]
+      - [project_ontology:hasGenerosityScore, $(Generosity), xsd:float]
+      - [project_ontology:hasPerceptionsOfCorruptionScore, $(Perceptions of corruption), xsd:float]
+
+
+
+  # column: Score
+  hasHappinessScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+    s: project_ontology:hasHappinessScore
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Happiness score', en~lang]
+      - [rdfs:comment, 'The world happiness score of a country, see https://www.wikidata.org/wiki/Q56258795. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395.', en~lang]
+      - [rdfs:domain, schema:AdministrativeArea~iri]
+      - [rdfs:range, xsd:float~iri]
+
+  # column: Social support
+  hasSocialSupportScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+    s: project_ontology:hasSocialSupportScore
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Social support score', en~lang]
+      - [rdfs:comment, 'The social support score of a country, see https://www.wikidata.org/wiki/Q2297111. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395.', en~lang]
+      - [rdfs:domain, schema:AdministrativeArea~iri]
+      - [rdfs:range, xsd:float~iri]
+
+  # column: Healthy life expectancy
+  hasHealthyLifeExpectancyScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+    s: project_ontology:hasHealthyLifeExpectancyScore
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Healthy life expectancy score', en~lang]
+      - [rdfs:comment, 'The healthy life expectancy score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395.', en~lang]
+      - [rdfs:domain, schema:AdministrativeArea~iri]
+      - [rdfs:range, xsd:float~iri]
+
+  # column: Freedom to make life choices
+  hasFreedomToMakeChoicesScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+    s: project_ontology:hasFreedomToMakeChoicesScore
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Freedom to make life choices score', en~lang]
+      - [rdfs:comment, 'The freedom to make life choices score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395.', en~lang]
+      - [rdfs:domain, schema:AdministrativeArea~iri]
+      - [rdfs:range, xsd:float~iri]
+
+  # column: Generosity
+  hasGenerosityScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+    s: project_ontology:hasGenerosityScore
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Generosity score', en~lang]
+      - [rdfs:comment, 'The generosity score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395.', en~lang]
+      - [rdfs:domain, schema:AdministrativeArea~iri]
+      - [rdfs:range, xsd:float~iri]
+
+  # column: Perceptions of corruption
+  hasPerceptionsOfCorruptionScore:
+    sources:
+      - ["../../data/happiness_report/2019_preprocessed.csv~csv"]
+    s: project_ontology:hasPerceptionsOfCorruptionScore
+    po:
+      - [a, owl:DatatypeProperty]
+      - [rdfs:label, 'Perceptions of corruption score', en~lang]
+      - [rdfs:comment, 'The perceptions of corruption score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395.', en~lang]
+      - [rdfs:domain, schema:AdministrativeArea~iri]
+      - [rdfs:range, xsd:float~iri]

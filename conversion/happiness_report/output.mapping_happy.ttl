@@ -1,0 +1,1461 @@
+@prefix : <http://mapping.example.com/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.com/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix project_area: <https://w3id.org/um/ken4256/project/area/> .
+@prefix project_ontology: <https://w3id.org/um/ken4256/project/ontology/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <https://schema.org/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+project_area:afghanistan a schema:AdministrativeArea;
+  rdfs:label "Afghanistan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.0"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.158"^^xsd:float;
+  project_ontology:hasHappinessScore "3.203"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.361"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.025"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.517"^^xsd:float .
+
+project_area:albania a schema:AdministrativeArea;
+  rdfs:label "Albania"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.383"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.178"^^xsd:float;
+  project_ontology:hasHappinessScore "4.719"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.874"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.027"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.848"^^xsd:float .
+
+project_area:algeria a schema:AdministrativeArea;
+  rdfs:label "Algeria"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.086"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.073"^^xsd:float;
+  project_ontology:hasHappinessScore "5.211"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.785"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.114"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.16"^^xsd:float .
+
+project_area:argentina a schema:AdministrativeArea;
+  rdfs:label "Argentina"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.471"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.066"^^xsd:float;
+  project_ontology:hasHappinessScore "6.086"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.881"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.05"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.432"^^xsd:float .
+
+project_area:armenia a schema:AdministrativeArea;
+  rdfs:label "Armenia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.283"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.095"^^xsd:float;
+  project_ontology:hasHappinessScore "4.559"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.815"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.064"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.055"^^xsd:float .
+
+project_area:australia a schema:AdministrativeArea;
+  rdfs:label "Australia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.557"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.332"^^xsd:float;
+  project_ontology:hasHappinessScore "7.228"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.036"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.29"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.548"^^xsd:float .
+
+project_area:austria a schema:AdministrativeArea;
+  rdfs:label "Austria"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.532"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.244"^^xsd:float;
+  project_ontology:hasHappinessScore "7.246"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.016"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.226"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.475"^^xsd:float .
+
+project_area:azerbaijan a schema:AdministrativeArea;
+  rdfs:label "Azerbaijan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.351"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.035"^^xsd:float;
+  project_ontology:hasHappinessScore "5.208"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.769"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.182"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.147"^^xsd:float .
+
+project_area:bahrain a schema:AdministrativeArea;
+  rdfs:label "Bahrain"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.536"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.255"^^xsd:float;
+  project_ontology:hasHappinessScore "6.199"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.871"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.11"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.368"^^xsd:float .
+
+project_area:bangladesh a schema:AdministrativeArea;
+  rdfs:label "Bangladesh"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.527"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.166"^^xsd:float;
+  project_ontology:hasHappinessScore "4.456"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.723"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.143"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.928"^^xsd:float .
+
+project_area:belarus a schema:AdministrativeArea;
+  rdfs:label "Belarus"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.235"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.094"^^xsd:float;
+  project_ontology:hasHappinessScore "5.323"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.789"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.142"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.465"^^xsd:float .
+
+project_area:belgium a schema:AdministrativeArea;
+  rdfs:label "Belgium"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.473"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.16"^^xsd:float;
+  project_ontology:hasHappinessScore "6.923"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.986"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.21"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.504"^^xsd:float .
+
+project_area:benin a schema:AdministrativeArea;
+  rdfs:label "Benin"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.349"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.175"^^xsd:float;
+  project_ontology:hasHappinessScore "4.883"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.397"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.082"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.437"^^xsd:float .
+
+project_area:bhutan a schema:AdministrativeArea;
+  rdfs:label "Bhutan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.457"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.37"^^xsd:float;
+  project_ontology:hasHappinessScore "5.082"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.604"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.167"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.321"^^xsd:float .
+
+project_area:bolivia a schema:AdministrativeArea;
+  rdfs:label "Bolivia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.511"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.137"^^xsd:float;
+  project_ontology:hasHappinessScore "5.779"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.706"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.064"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.209"^^xsd:float .
+
+project_area:bosnia_and_herzegovina a schema:AdministrativeArea;
+  rdfs:label "Bosnia and Herzegovina"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.212"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.263"^^xsd:float;
+  project_ontology:hasHappinessScore "5.386"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.845"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.006"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.212"^^xsd:float .
+
+project_area:botswana a schema:AdministrativeArea;
+  rdfs:label "Botswana"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.455"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.025"^^xsd:float;
+  project_ontology:hasHappinessScore "3.488"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.538"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.1"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.145"^^xsd:float .
+
+project_area:brazil a schema:AdministrativeArea;
+  rdfs:label "Brazil"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.39"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.099"^^xsd:float;
+  project_ontology:hasHappinessScore "6.3"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.802"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.086"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.439"^^xsd:float .
+
+project_area:bulgaria a schema:AdministrativeArea;
+  rdfs:label "Bulgaria"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.311"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.081"^^xsd:float;
+  project_ontology:hasHappinessScore "5.011"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.815"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.004"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.513"^^xsd:float .
+
+project_area:burkina_faso a schema:AdministrativeArea;
+  rdfs:label "Burkina Faso"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.255"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.177"^^xsd:float;
+  project_ontology:hasHappinessScore "4.587"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.38"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.113"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.056"^^xsd:float .
+
+project_area:burundi a schema:AdministrativeArea;
+  rdfs:label "Burundi"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.22"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.176"^^xsd:float;
+  project_ontology:hasHappinessScore "3.775"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.38"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.18"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.447"^^xsd:float .
+
+project_area:cambodia a schema:AdministrativeArea;
+  rdfs:label "Cambodia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.609"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.232"^^xsd:float;
+  project_ontology:hasHappinessScore "4.7"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.637"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.062"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.122"^^xsd:float .
+
+project_area:cameroon a schema:AdministrativeArea;
+  rdfs:label "Cameroon"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.381"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.187"^^xsd:float;
+  project_ontology:hasHappinessScore "5.044"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.331"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.037"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.91"^^xsd:float .
+
+project_area:canada a schema:AdministrativeArea;
+  rdfs:label "Canada"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.584"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.285"^^xsd:float;
+  project_ontology:hasHappinessScore "7.278"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.039"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.308"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.505"^^xsd:float .
+
+project_area:central_african_republic a schema:AdministrativeArea;
+  rdfs:label "Central African Republic"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.225"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.235"^^xsd:float;
+  project_ontology:hasHappinessScore "3.083"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.105"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.035"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.0"^^xsd:float .
+
+project_area:chad a schema:AdministrativeArea;
+  rdfs:label "Chad"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.174"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.198"^^xsd:float;
+  project_ontology:hasHappinessScore "4.35"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.192"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.078"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.766"^^xsd:float .
+
+project_area:chile a schema:AdministrativeArea;
+  rdfs:label "Chile"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.357"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.187"^^xsd:float;
+  project_ontology:hasHappinessScore "6.444"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.92"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.056"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.369"^^xsd:float .
+
+project_area:china a schema:AdministrativeArea;
+  rdfs:label "China"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.521"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.058"^^xsd:float;
+  project_ontology:hasHappinessScore "5.191"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.893"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.1"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.125"^^xsd:float .
+
+project_area:colombia a schema:AdministrativeArea;
+  rdfs:label "Colombia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.47"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.099"^^xsd:float;
+  project_ontology:hasHappinessScore "6.125"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.841"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.034"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.41"^^xsd:float .
+
+project_area:comoros a schema:AdministrativeArea;
+  rdfs:label "Comoros"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.142"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.275"^^xsd:float;
+  project_ontology:hasHappinessScore "3.973"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.505"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.078"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.757"^^xsd:float .
+
+project_area:congo_brazzaville a schema:AdministrativeArea;
+  rdfs:label "Congo (Brazzaville)"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.372"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.105"^^xsd:float;
+  project_ontology:hasHappinessScore "4.812"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.508"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.093"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.799"^^xsd:float .
+
+project_area:congo_kinshasa a schema:AdministrativeArea;
+  rdfs:label "Congo (Kinshasa)"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.269"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.212"^^xsd:float;
+  project_ontology:hasHappinessScore "4.418"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.357"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.053"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.125"^^xsd:float .
+
+project_area:costa_rica a schema:AdministrativeArea;
+  rdfs:label "Costa Rica"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.558"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.144"^^xsd:float;
+  project_ontology:hasHappinessScore "7.167"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.963"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.093"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.441"^^xsd:float .
+
+project_area:croatia a schema:AdministrativeArea;
+  rdfs:label "Croatia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.296"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.119"^^xsd:float;
+  project_ontology:hasHappinessScore "5.432"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.914"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.022"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.266"^^xsd:float .
+
+project_area:cyprus a schema:AdministrativeArea;
+  rdfs:label "Cyprus"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.406"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.19"^^xsd:float;
+  project_ontology:hasHappinessScore "6.046"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.042"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.041"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.223"^^xsd:float .
+
+project_area:czech_republic a schema:AdministrativeArea;
+  rdfs:label "Czech Republic"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.457"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.046"^^xsd:float;
+  project_ontology:hasHappinessScore "6.852"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.92"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.036"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.487"^^xsd:float .
+
+project_area:denmark a schema:AdministrativeArea;
+  rdfs:label "Denmark"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.592"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.252"^^xsd:float;
+  project_ontology:hasHappinessScore "7.6"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.996"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.41"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.573"^^xsd:float .
+
+project_area:dominican_republic a schema:AdministrativeArea;
+  rdfs:label "Dominican Republic"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.497"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.113"^^xsd:float;
+  project_ontology:hasHappinessScore "5.425"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.779"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.101"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.401"^^xsd:float .
+
+project_area:ecuador a schema:AdministrativeArea;
+  rdfs:label "Ecuador"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.498"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.126"^^xsd:float;
+  project_ontology:hasHappinessScore "6.028"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.868"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.087"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.312"^^xsd:float .
+
+project_area:egypt a schema:AdministrativeArea;
+  rdfs:label "Egypt"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.241"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.076"^^xsd:float;
+  project_ontology:hasHappinessScore "4.166"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.644"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.067"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.039"^^xsd:float .
+
+project_area:el_salvador a schema:AdministrativeArea;
+  rdfs:label "El Salvador"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.43"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.093"^^xsd:float;
+  project_ontology:hasHappinessScore "6.253"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.789"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.074"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.242"^^xsd:float .
+
+project_area:estonia a schema:AdministrativeArea;
+  rdfs:label "Estonia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.495"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.103"^^xsd:float;
+  project_ontology:hasHappinessScore "5.893"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.874"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.161"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.528"^^xsd:float .
+
+project_area:ethiopia a schema:AdministrativeArea;
+  rdfs:label "Ethiopia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.344"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.209"^^xsd:float;
+  project_ontology:hasHappinessScore "4.286"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.532"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.1"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.033"^^xsd:float .
+
+project_area:finland a schema:AdministrativeArea;
+  rdfs:label "Finland"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.596"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.153"^^xsd:float;
+  project_ontology:hasHappinessScore "7.769"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.986"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.393"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.587"^^xsd:float .
+
+project_area:france a schema:AdministrativeArea;
+  rdfs:label "France"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.436"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.111"^^xsd:float;
+  project_ontology:hasHappinessScore "6.592"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.045"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.183"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.472"^^xsd:float .
+
+project_area:gabon a schema:AdministrativeArea;
+  rdfs:label "Gabon"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.295"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.043"^^xsd:float;
+  project_ontology:hasHappinessScore "4.799"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.571"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.055"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.183"^^xsd:float .
+
+project_area:gambia a schema:AdministrativeArea;
+  rdfs:label "Gambia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.382"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.269"^^xsd:float;
+  project_ontology:hasHappinessScore "4.516"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.428"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.167"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.939"^^xsd:float .
+
+project_area:georgia a schema:AdministrativeArea;
+  rdfs:label "Georgia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.346"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.043"^^xsd:float;
+  project_ontology:hasHappinessScore "4.519"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.752"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.164"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.666"^^xsd:float .
+
+project_area:germany a schema:AdministrativeArea;
+  rdfs:label "Germany"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.495"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.261"^^xsd:float;
+  project_ontology:hasHappinessScore "6.985"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.987"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.265"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.454"^^xsd:float .
+
+project_area:ghana a schema:AdministrativeArea;
+  rdfs:label "Ghana"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.381"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.245"^^xsd:float;
+  project_ontology:hasHappinessScore "4.996"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.486"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.04"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.868"^^xsd:float .
+
+project_area:greece a schema:AdministrativeArea;
+  rdfs:label "Greece"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.067"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.0"^^xsd:float;
+  project_ontology:hasHappinessScore "5.287"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.999"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.034"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.156"^^xsd:float .
+
+project_area:guatemala a schema:AdministrativeArea;
+  rdfs:label "Guatemala"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.535"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.175"^^xsd:float;
+  project_ontology:hasHappinessScore "6.436"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.746"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.078"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.269"^^xsd:float .
+
+project_area:guinea a schema:AdministrativeArea;
+  rdfs:label "Guinea"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.332"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.207"^^xsd:float;
+  project_ontology:hasHappinessScore "4.534"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.375"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.086"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.829"^^xsd:float .
+
+project_area:haiti a schema:AdministrativeArea;
+  rdfs:label "Haiti"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.026"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.419"^^xsd:float;
+  project_ontology:hasHappinessScore "3.597"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.449"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.11"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.688"^^xsd:float .
+
+project_area:honduras a schema:AdministrativeArea;
+  rdfs:label "Honduras"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.507"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.246"^^xsd:float;
+  project_ontology:hasHappinessScore "5.86"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.828"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.078"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.236"^^xsd:float .
+
+project_area:hong_kong a schema:AdministrativeArea;
+  rdfs:label "Hong Kong"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.44"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.258"^^xsd:float;
+  project_ontology:hasHappinessScore "5.43"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.122"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.287"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.277"^^xsd:float .
+
+project_area:hungary a schema:AdministrativeArea;
+  rdfs:label "Hungary"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.199"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.081"^^xsd:float;
+  project_ontology:hasHappinessScore "5.758"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.828"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.02"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.41"^^xsd:float .
+
+project_area:iceland a schema:AdministrativeArea;
+  rdfs:label "Iceland"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.591"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.354"^^xsd:float;
+  project_ontology:hasHappinessScore "7.494"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.026"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.118"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.624"^^xsd:float .
+
+project_area:india a schema:AdministrativeArea;
+  rdfs:label "India"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.498"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.2"^^xsd:float;
+  project_ontology:hasHappinessScore "4.015"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.588"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.085"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.765"^^xsd:float .
+
+project_area:indonesia a schema:AdministrativeArea;
+  rdfs:label "Indonesia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.491"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.498"^^xsd:float;
+  project_ontology:hasHappinessScore "5.192"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.66"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.028"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.203"^^xsd:float .
+
+project_area:iran a schema:AdministrativeArea;
+  rdfs:label "Iran"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.305"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.27"^^xsd:float;
+  project_ontology:hasHappinessScore "4.548"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.785"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.125"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.842"^^xsd:float .
+
+project_area:iraq a schema:AdministrativeArea;
+  rdfs:label "Iraq"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.241"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.148"^^xsd:float;
+  project_ontology:hasHappinessScore "4.437"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.574"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.089"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.98"^^xsd:float .
+
+project_area:ireland a schema:AdministrativeArea;
+  rdfs:label "Ireland"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.516"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.298"^^xsd:float;
+  project_ontology:hasHappinessScore "7.021"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.999"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.31"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.553"^^xsd:float .
+
+project_area:israel a schema:AdministrativeArea;
+  rdfs:label "Israel"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.371"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.261"^^xsd:float;
+  project_ontology:hasHappinessScore "7.139"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.029"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.082"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.455"^^xsd:float .
+
+project_area:italy a schema:AdministrativeArea;
+  rdfs:label "Italy"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.231"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.158"^^xsd:float;
+  project_ontology:hasHappinessScore "6.223"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.039"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.03"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.488"^^xsd:float .
+
+project_area:ivory_coast a schema:AdministrativeArea;
+  rdfs:label "Ivory Coast"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.352"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.154"^^xsd:float;
+  project_ontology:hasHappinessScore "4.944"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.232"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.09"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.808"^^xsd:float .
+
+project_area:jamaica a schema:AdministrativeArea;
+  rdfs:label "Jamaica"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.49"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.107"^^xsd:float;
+  project_ontology:hasHappinessScore "5.89"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.831"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.028"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.478"^^xsd:float .
+
+project_area:japan a schema:AdministrativeArea;
+  rdfs:label "Japan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.445"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.069"^^xsd:float;
+  project_ontology:hasHappinessScore "5.886"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.088"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.14"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.419"^^xsd:float .
+
+project_area:jordan a schema:AdministrativeArea;
+  rdfs:label "Jordan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.383"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.11"^^xsd:float;
+  project_ontology:hasHappinessScore "4.906"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.815"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.13"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.225"^^xsd:float .
+
+project_area:kazakhstan a schema:AdministrativeArea;
+  rdfs:label "Kazakhstan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.41"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.146"^^xsd:float;
+  project_ontology:hasHappinessScore "5.809"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.729"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.096"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.508"^^xsd:float .
+
+project_area:kenya a schema:AdministrativeArea;
+  rdfs:label "Kenya"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.431"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.372"^^xsd:float;
+  project_ontology:hasHappinessScore "4.509"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.581"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.053"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.983"^^xsd:float .
+
+project_area:kosovo a schema:AdministrativeArea;
+  rdfs:label "Kosovo"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.489"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.262"^^xsd:float;
+  project_ontology:hasHappinessScore "6.1"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.758"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.006"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.232"^^xsd:float .
+
+project_area:kuwait a schema:AdministrativeArea;
+  rdfs:label "Kuwait"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.493"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.142"^^xsd:float;
+  project_ontology:hasHappinessScore "6.021"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.808"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.097"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.319"^^xsd:float .
+
+project_area:kyrgyzstan a schema:AdministrativeArea;
+  rdfs:label "Kyrgyzstan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.508"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.3"^^xsd:float;
+  project_ontology:hasHappinessScore "5.261"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.723"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.023"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.438"^^xsd:float .
+
+project_area:laos a schema:AdministrativeArea;
+  rdfs:label "Laos"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.547"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.266"^^xsd:float;
+  project_ontology:hasHappinessScore "4.796"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.551"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.164"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.03"^^xsd:float .
+
+project_area:latvia a schema:AdministrativeArea;
+  rdfs:label "Latvia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.264"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.075"^^xsd:float;
+  project_ontology:hasHappinessScore "5.94"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.812"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.064"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.465"^^xsd:float .
+
+project_area:lebanon a schema:AdministrativeArea;
+  rdfs:label "Lebanon"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.216"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.166"^^xsd:float;
+  project_ontology:hasHappinessScore "5.197"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.815"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.027"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.224"^^xsd:float .
+
+project_area:lesotho a schema:AdministrativeArea;
+  rdfs:label "Lesotho"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.359"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.107"^^xsd:float;
+  project_ontology:hasHappinessScore "3.802"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.168"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.093"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.169"^^xsd:float .
+
+project_area:liberia a schema:AdministrativeArea;
+  rdfs:label "Liberia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.37"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.233"^^xsd:float;
+  project_ontology:hasHappinessScore "3.975"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.443"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.033"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.922"^^xsd:float .
+
+project_area:libya a schema:AdministrativeArea;
+  rdfs:label "Libya"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.416"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.133"^^xsd:float;
+  project_ontology:hasHappinessScore "5.525"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.673"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.152"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.303"^^xsd:float .
+
+project_area:lithuania a schema:AdministrativeArea;
+  rdfs:label "Lithuania"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.291"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.043"^^xsd:float;
+  project_ontology:hasHappinessScore "6.149"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.818"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.042"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.515"^^xsd:float .
+
+project_area:luxembourg a schema:AdministrativeArea;
+  rdfs:label "Luxembourg"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.526"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.194"^^xsd:float;
+  project_ontology:hasHappinessScore "7.09"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.012"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.316"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.479"^^xsd:float .
+
+project_area:madagascar a schema:AdministrativeArea;
+  rdfs:label "Madagascar"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.148"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.169"^^xsd:float;
+  project_ontology:hasHappinessScore "3.933"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.555"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.041"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.916"^^xsd:float .
+
+project_area:malawi a schema:AdministrativeArea;
+  rdfs:label "Malawi"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.443"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.218"^^xsd:float;
+  project_ontology:hasHappinessScore "3.41"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.495"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.089"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.56"^^xsd:float .
+
+project_area:malaysia a schema:AdministrativeArea;
+  rdfs:label "Malaysia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.508"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.26"^^xsd:float;
+  project_ontology:hasHappinessScore "5.339"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.828"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.024"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.171"^^xsd:float .
+
+project_area:mali a schema:AdministrativeArea;
+  rdfs:label "Mali"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.327"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.153"^^xsd:float;
+  project_ontology:hasHappinessScore "4.39"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.308"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.052"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.105"^^xsd:float .
+
+project_area:malta a schema:AdministrativeArea;
+  rdfs:label "Malta"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.564"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.375"^^xsd:float;
+  project_ontology:hasHappinessScore "6.726"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.999"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.151"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.52"^^xsd:float .
+
+project_area:mauritania a schema:AdministrativeArea;
+  rdfs:label "Mauritania"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.066"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.106"^^xsd:float;
+  project_ontology:hasHappinessScore "4.49"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.489"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.088"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.167"^^xsd:float .
+
+project_area:mauritius a schema:AdministrativeArea;
+  rdfs:label "Mauritius"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.498"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.215"^^xsd:float;
+  project_ontology:hasHappinessScore "5.888"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.798"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.06"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.402"^^xsd:float .
+
+project_area:mexico a schema:AdministrativeArea;
+  rdfs:label "Mexico"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.433"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.074"^^xsd:float;
+  project_ontology:hasHappinessScore "6.595"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.861"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.073"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.323"^^xsd:float .
+
+project_area:moldova a schema:AdministrativeArea;
+  rdfs:label "Moldova"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.245"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.181"^^xsd:float;
+  project_ontology:hasHappinessScore "5.529"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.739"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.0"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.328"^^xsd:float .
+
+project_area:mongolia a schema:AdministrativeArea;
+  rdfs:label "Mongolia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.317"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.235"^^xsd:float;
+  project_ontology:hasHappinessScore "5.285"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.667"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.038"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.531"^^xsd:float .
+
+project_area:montenegro a schema:AdministrativeArea;
+  rdfs:label "Montenegro"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.197"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.142"^^xsd:float;
+  project_ontology:hasHappinessScore "5.523"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.871"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.08"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.361"^^xsd:float .
+
+project_area:morocco a schema:AdministrativeArea;
+  rdfs:label "Morocco"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.418"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.036"^^xsd:float;
+  project_ontology:hasHappinessScore "5.208"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.782"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.076"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.782"^^xsd:float .
+
+project_area:mozambique a schema:AdministrativeArea;
+  rdfs:label "Mozambique"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.494"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.197"^^xsd:float;
+  project_ontology:hasHappinessScore "4.466"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.39"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.138"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.986"^^xsd:float .
+
+project_area:myanmar a schema:AdministrativeArea;
+  rdfs:label "Myanmar"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.525"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.566"^^xsd:float;
+  project_ontology:hasHappinessScore "4.36"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.555"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.172"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.181"^^xsd:float .
+
+project_area:namibia a schema:AdministrativeArea;
+  rdfs:label "Namibia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.401"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.07"^^xsd:float;
+  project_ontology:hasHappinessScore "4.639"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.477"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.056"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.313"^^xsd:float .
+
+project_area:nepal a schema:AdministrativeArea;
+  rdfs:label "Nepal"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.439"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.285"^^xsd:float;
+  project_ontology:hasHappinessScore "4.913"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.677"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.089"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.226"^^xsd:float .
+
+project_area:netherlands a schema:AdministrativeArea;
+  rdfs:label "Netherlands"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.557"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.322"^^xsd:float;
+  project_ontology:hasHappinessScore "7.488"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.999"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.298"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.522"^^xsd:float .
+
+project_area:new_zealand a schema:AdministrativeArea;
+  rdfs:label "New Zealand"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.585"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.33"^^xsd:float;
+  project_ontology:hasHappinessScore "7.307"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.026"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.38"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.557"^^xsd:float .
+
+project_area:nicaragua a schema:AdministrativeArea;
+  rdfs:label "Nicaragua"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.435"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.2"^^xsd:float;
+  project_ontology:hasHappinessScore "6.105"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.835"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.127"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.325"^^xsd:float .
+
+project_area:niger a schema:AdministrativeArea;
+  rdfs:label "Niger"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.318"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.188"^^xsd:float;
+  project_ontology:hasHappinessScore "4.628"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.366"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.102"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.774"^^xsd:float .
+
+project_area:nigeria a schema:AdministrativeArea;
+  rdfs:label "Nigeria"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.426"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.215"^^xsd:float;
+  project_ontology:hasHappinessScore "5.265"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.245"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.041"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.111"^^xsd:float .
+
+project_area:north_macedonia a schema:AdministrativeArea;
+  rdfs:label "North Macedonia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.345"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.185"^^xsd:float;
+  project_ontology:hasHappinessScore "5.274"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.838"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.034"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.294"^^xsd:float .
+
+project_area:northern_cyprus a schema:AdministrativeArea;
+  rdfs:label "Northern Cyprus"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.417"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.191"^^xsd:float;
+  project_ontology:hasHappinessScore "5.718"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.042"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.162"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.252"^^xsd:float .
+
+project_area:norway a schema:AdministrativeArea;
+  rdfs:label "Norway"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.603"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.271"^^xsd:float;
+  project_ontology:hasHappinessScore "7.554"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.028"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.341"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.582"^^xsd:float .
+
+project_area:pakistan a schema:AdministrativeArea;
+  rdfs:label "Pakistan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.313"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.22"^^xsd:float;
+  project_ontology:hasHappinessScore "5.653"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.535"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.098"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.886"^^xsd:float .
+
+project_area:palestinian_territories a schema:AdministrativeArea;
+  rdfs:label "Palestinian Territories"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.225"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.103"^^xsd:float;
+  project_ontology:hasHappinessScore "4.696"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.672"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.066"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.247"^^xsd:float .
+
+project_area:panama a schema:AdministrativeArea;
+  rdfs:label "Panama"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.516"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.109"^^xsd:float;
+  project_ontology:hasHappinessScore "6.321"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.91"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.054"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.442"^^xsd:float .
+
+project_area:paraguay a schema:AdministrativeArea;
+  rdfs:label "Paraguay"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.514"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.184"^^xsd:float;
+  project_ontology:hasHappinessScore "5.743"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.777"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.08"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.475"^^xsd:float .
+
+project_area:peru a schema:AdministrativeArea;
+  rdfs:label "Peru"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.455"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.083"^^xsd:float;
+  project_ontology:hasHappinessScore "5.697"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.854"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.027"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.274"^^xsd:float .
+
+project_area:philippines a schema:AdministrativeArea;
+  rdfs:label "Philippines"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.558"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.117"^^xsd:float;
+  project_ontology:hasHappinessScore "5.631"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.657"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.107"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.293"^^xsd:float .
+
+project_area:poland a schema:AdministrativeArea;
+  rdfs:label "Poland"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.483"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.117"^^xsd:float;
+  project_ontology:hasHappinessScore "6.182"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.884"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.05"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.438"^^xsd:float .
+
+project_area:portugal a schema:AdministrativeArea;
+  rdfs:label "Portugal"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.508"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.047"^^xsd:float;
+  project_ontology:hasHappinessScore "5.693"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.999"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.025"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.431"^^xsd:float .
+
+project_area:qatar a schema:AdministrativeArea;
+  rdfs:label "Qatar"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.555"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.22"^^xsd:float;
+  project_ontology:hasHappinessScore "6.374"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.871"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.167"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.313"^^xsd:float .
+
+project_area:romania a schema:AdministrativeArea;
+  rdfs:label "Romania"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.462"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.083"^^xsd:float;
+  project_ontology:hasHappinessScore "6.07"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.825"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.005"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.232"^^xsd:float .
+
+project_area:russia a schema:AdministrativeArea;
+  rdfs:label "Russia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.334"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.082"^^xsd:float;
+  project_ontology:hasHappinessScore "5.648"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.726"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.031"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.452"^^xsd:float .
+
+project_area:rwanda a schema:AdministrativeArea;
+  rdfs:label "Rwanda"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.555"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.217"^^xsd:float;
+  project_ontology:hasHappinessScore "3.334"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.614"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.411"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.711"^^xsd:float .
+
+project_area:saudi_arabia a schema:AdministrativeArea;
+  rdfs:label "Saudi Arabia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.439"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.08"^^xsd:float;
+  project_ontology:hasHappinessScore "6.375"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.795"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.132"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.357"^^xsd:float .
+
+project_area:senegal a schema:AdministrativeArea;
+  rdfs:label "Senegal"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.292"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.153"^^xsd:float;
+  project_ontology:hasHappinessScore "4.681"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.571"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.072"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.134"^^xsd:float .
+
+project_area:serbia a schema:AdministrativeArea;
+  rdfs:label "Serbia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.282"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.137"^^xsd:float;
+  project_ontology:hasHappinessScore "5.603"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.854"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.039"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.383"^^xsd:float .
+
+project_area:sierra_leone a schema:AdministrativeArea;
+  rdfs:label "Sierra Leone"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.309"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.252"^^xsd:float;
+  project_ontology:hasHappinessScore "4.374"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.242"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.045"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.841"^^xsd:float .
+
+project_area:singapore a schema:AdministrativeArea;
+  rdfs:label "Singapore"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.556"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.271"^^xsd:float;
+  project_ontology:hasHappinessScore "6.262"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.141"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.453"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.463"^^xsd:float .
+
+project_area:slovakia a schema:AdministrativeArea;
+  rdfs:label "Slovakia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.334"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.121"^^xsd:float;
+  project_ontology:hasHappinessScore "6.198"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.881"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.014"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.504"^^xsd:float .
+
+project_area:slovenia a schema:AdministrativeArea;
+  rdfs:label "Slovenia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.564"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.144"^^xsd:float;
+  project_ontology:hasHappinessScore "6.118"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.953"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.057"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.523"^^xsd:float .
+
+project_area:somalia a schema:AdministrativeArea;
+  rdfs:label "Somalia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.559"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.243"^^xsd:float;
+  project_ontology:hasHappinessScore "4.668"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.268"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.27"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.698"^^xsd:float .
+
+project_area:south_africa a schema:AdministrativeArea;
+  rdfs:label "South Africa"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.389"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.13"^^xsd:float;
+  project_ontology:hasHappinessScore "4.722"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.469"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.055"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.351"^^xsd:float .
+
+project_area:south_korea a schema:AdministrativeArea;
+  rdfs:label "South Korea"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.159"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.175"^^xsd:float;
+  project_ontology:hasHappinessScore "5.895"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.036"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.056"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.219"^^xsd:float .
+
+project_area:south_sudan a schema:AdministrativeArea;
+  rdfs:label "South Sudan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.01"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.202"^^xsd:float;
+  project_ontology:hasHappinessScore "2.853"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.295"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.091"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.575"^^xsd:float .
+
+project_area:spain a schema:AdministrativeArea;
+  rdfs:label "Spain"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.362"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.153"^^xsd:float;
+  project_ontology:hasHappinessScore "6.354"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.062"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.079"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.484"^^xsd:float .
+
+project_area:sri_lanka a schema:AdministrativeArea;
+  rdfs:label "Sri Lanka"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.47"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.244"^^xsd:float;
+  project_ontology:hasHappinessScore "4.366"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.831"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.047"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.265"^^xsd:float .
+
+project_area:swaziland a schema:AdministrativeArea;
+  rdfs:label "Swaziland"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.313"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.074"^^xsd:float;
+  project_ontology:hasHappinessScore "4.212"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.0"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.135"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.149"^^xsd:float .
+
+project_area:sweden a schema:AdministrativeArea;
+  rdfs:label "Sweden"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.574"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.267"^^xsd:float;
+  project_ontology:hasHappinessScore "7.343"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.009"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.373"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.487"^^xsd:float .
+
+project_area:switzerland a schema:AdministrativeArea;
+  rdfs:label "Switzerland"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.572"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.263"^^xsd:float;
+  project_ontology:hasHappinessScore "7.48"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "1.052"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.343"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.526"^^xsd:float .
+
+project_area:syria a schema:AdministrativeArea;
+  rdfs:label "Syria"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.013"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.331"^^xsd:float;
+  project_ontology:hasHappinessScore "3.462"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.44"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.141"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.378"^^xsd:float .
+
+project_area:taiwan a schema:AdministrativeArea;
+  rdfs:label "Taiwan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.351"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.242"^^xsd:float;
+  project_ontology:hasHappinessScore "6.446"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.914"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.097"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.43"^^xsd:float .
+
+project_area:tajikistan a schema:AdministrativeArea;
+  rdfs:label "Tajikistan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.389"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.23"^^xsd:float;
+  project_ontology:hasHappinessScore "5.467"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.718"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.144"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.098"^^xsd:float .
+
+project_area:tanzania a schema:AdministrativeArea;
+  rdfs:label "Tanzania"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.417"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.276"^^xsd:float;
+  project_ontology:hasHappinessScore "3.231"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.499"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.147"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.885"^^xsd:float .
+
+project_area:thailand a schema:AdministrativeArea;
+  rdfs:label "Thailand"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.557"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.359"^^xsd:float;
+  project_ontology:hasHappinessScore "6.008"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.828"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.028"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.409"^^xsd:float .
+
+project_area:togo a schema:AdministrativeArea;
+  rdfs:label "Togo"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.293"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.177"^^xsd:float;
+  project_ontology:hasHappinessScore "4.085"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.41"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.085"^^xsd:float;
+  project_ontology:hasSocialSupportScore "0.572"^^xsd:float .
+
+project_area:trinidad_%26_tobago a schema:AdministrativeArea;
+  rdfs:label "Trinidad & Tobago"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.489"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.185"^^xsd:float;
+  project_ontology:hasHappinessScore "6.192"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.713"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.016"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.477"^^xsd:float .
+
+project_area:tunisia a schema:AdministrativeArea;
+  rdfs:label "Tunisia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.167"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.059"^^xsd:float;
+  project_ontology:hasHappinessScore "4.461"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.815"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.055"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.0"^^xsd:float .
+
+project_area:turkey a schema:AdministrativeArea;
+  rdfs:label "Turkey"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.195"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.083"^^xsd:float;
+  project_ontology:hasHappinessScore "5.373"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.808"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.106"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.36"^^xsd:float .
+
+project_area:turkmenistan a schema:AdministrativeArea;
+  rdfs:label "Turkmenistan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.394"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.244"^^xsd:float;
+  project_ontology:hasHappinessScore "5.247"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.657"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.028"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.538"^^xsd:float .
+
+project_area:uganda a schema:AdministrativeArea;
+  rdfs:label "Uganda"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.356"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.252"^^xsd:float;
+  project_ontology:hasHappinessScore "4.189"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.443"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.06"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.069"^^xsd:float .
+
+project_area:ukraine a schema:AdministrativeArea;
+  rdfs:label "Ukraine"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.178"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.187"^^xsd:float;
+  project_ontology:hasHappinessScore "4.332"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.739"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.01"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.39"^^xsd:float .
+
+project_area:united_arab_emirates a schema:AdministrativeArea;
+  rdfs:label "United Arab Emirates"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.598"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.262"^^xsd:float;
+  project_ontology:hasHappinessScore "6.825"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.825"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.182"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.31"^^xsd:float .
+
+project_area:united_kingdom a schema:AdministrativeArea;
+  rdfs:label "United Kingdom"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.45"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.348"^^xsd:float;
+  project_ontology:hasHappinessScore "7.054"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.996"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.278"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.538"^^xsd:float .
+
+project_area:united_states a schema:AdministrativeArea;
+  rdfs:label "United States"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.454"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.28"^^xsd:float;
+  project_ontology:hasHappinessScore "6.892"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.874"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.128"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.457"^^xsd:float .
+
+project_area:uruguay a schema:AdministrativeArea;
+  rdfs:label "Uruguay"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.523"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.127"^^xsd:float;
+  project_ontology:hasHappinessScore "6.293"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.891"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.15"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.465"^^xsd:float .
+
+project_area:uzbekistan a schema:AdministrativeArea;
+  rdfs:label "Uzbekistan"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.631"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.322"^^xsd:float;
+  project_ontology:hasHappinessScore "6.174"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.756"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.24"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.529"^^xsd:float .
+
+project_area:venezuela a schema:AdministrativeArea;
+  rdfs:label "Venezuela"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.154"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.064"^^xsd:float;
+  project_ontology:hasHappinessScore "4.707"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.805"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.047"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.427"^^xsd:float .
+
+project_area:vietnam a schema:AdministrativeArea;
+  rdfs:label "Vietnam"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.543"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.147"^^xsd:float;
+  project_ontology:hasHappinessScore "5.175"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.851"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.073"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.346"^^xsd:float .
+
+project_area:yemen a schema:AdministrativeArea;
+  rdfs:label "Yemen"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.143"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.108"^^xsd:float;
+  project_ontology:hasHappinessScore "3.38"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.463"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.077"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.163"^^xsd:float .
+
+project_area:zambia a schema:AdministrativeArea;
+  rdfs:label "Zambia"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.431"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.247"^^xsd:float;
+  project_ontology:hasHappinessScore "4.107"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.426"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.087"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.058"^^xsd:float .
+
+project_area:zimbabwe a schema:AdministrativeArea;
+  rdfs:label "Zimbabwe"@en;
+  project_ontology:hasFreedomToMakeChoicesScore "0.361"^^xsd:float;
+  project_ontology:hasGenerosityScore "0.151"^^xsd:float;
+  project_ontology:hasHappinessScore "3.663"^^xsd:float;
+  project_ontology:hasHealthyLifeExpectancyScore "0.433"^^xsd:float;
+  project_ontology:hasPerceptionsOfCorruptionScore "0.089"^^xsd:float;
+  project_ontology:hasSocialSupportScore "1.114"^^xsd:float .
+
+project_ontology:hasFreedomToMakeChoicesScore a owl:DatatypeProperty;
+  rdfs:comment "The freedom to make life choices score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395."@en;
+  rdfs:domain schema:AdministrativeArea;
+  rdfs:label "Freedom to make life choices score"@en;
+  rdfs:range xsd:float .
+
+project_ontology:hasGenerosityScore a owl:DatatypeProperty;
+  rdfs:comment "The generosity score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395."@en;
+  rdfs:domain schema:AdministrativeArea;
+  rdfs:label "Generosity score"@en;
+  rdfs:range xsd:float .
+
+project_ontology:hasHappinessScore a owl:DatatypeProperty;
+  rdfs:comment "The world happiness score of a country, see https://www.wikidata.org/wiki/Q56258795. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395."@en;
+  rdfs:domain schema:AdministrativeArea;
+  rdfs:label "Happiness score"@en;
+  rdfs:range xsd:float .
+
+project_ontology:hasHealthyLifeExpectancyScore a owl:DatatypeProperty;
+  rdfs:comment "The healthy life expectancy score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395."@en;
+  rdfs:domain schema:AdministrativeArea;
+  rdfs:label "Healthy life expectancy score"@en;
+  rdfs:range xsd:float .
+
+project_ontology:hasPerceptionsOfCorruptionScore a owl:DatatypeProperty;
+  rdfs:comment "The perceptions of corruption score. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395."@en;
+  rdfs:domain schema:AdministrativeArea;
+  rdfs:label "Perceptions of corruption score"@en;
+  rdfs:range xsd:float .
+
+project_ontology:hasSocialSupportScore a owl:DatatypeProperty;
+  rdfs:comment "The social support score of a country, see https://www.wikidata.org/wiki/Q2297111. Part of the World Happiness Report, see https://www.wikidata.org/wiki/Q17090395."@en;
+  rdfs:domain schema:AdministrativeArea;
+  rdfs:label "Social support score"@en;
+  rdfs:range xsd:float .

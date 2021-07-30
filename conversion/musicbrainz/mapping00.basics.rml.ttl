@@ -1,0 +1,201 @@
+# general ontologies & functions
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix schema: <https://schema.org/> .
+@prefix gn: <https://www.geonames.org/countries/> .
+# Own namespace
+@prefix project: <https://w3id.org/um/ken4256/project/mb/> .
+@prefix project_onto: <https://w3id.org/um/ken4256/project/mb/ontology/> .
+@prefix mb_rg: <https://musicbrainz.org/release-group/> .
+@prefix mb_r: <https://musicbrainz.org/release/> .
+@prefix music: <http://purl.org/ontology/mo/> .
+@prefix lang: <https://iso639-3.sil.org/code/> .
+
+@base <https://w3id.org/um/ken4256/project/mb/> .
+
+<TriplesMap_ReleaseType>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rr:tableName "release_group_primary_type";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+      rr:template "https://w3id.org/um/ken4256/project/mb/releaseType/{name}";
+      rr:class music:ReleaseType;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:language "en"
+      ]
+    ];
+.
+
+
+<TriplesMap_ReleaseStatus>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rr:tableName "release_status";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+      rr:template "https://w3id.org/um/ken4256/project/mb/releaseStatus/{name}";
+      rr:class music:ReleaseStatus;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:comment ;
+      rr:objectMap [
+        rml:reference "description";
+        rr:language "en"
+      ]
+    ];
+
+.
+
+
+<TriplesMap_ReleaseLanguage>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rml:query
+    """
+    -- release_language
+    select
+      l.iso_code_3,
+      l.name
+    from "language" l 
+    where l.id in (
+      select "language" 
+      from "release" r
+      where id in (select release from release_country where date_year = 2019)
+      group by "language"
+    );
+    """;
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+      rr:template "https://iso639-3.sil.org/code/{iso_code_3}";
+      rr:class schema:Language;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:seeAlso ;
+      rr:objectMap [
+        rr:constant <https://musicbrainz.org/doc/Release>;
+        rr:termType rr:IRI
+      ]
+    ];
+.
+
+
+<TriplesMap_ArtistType>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rr:tableName "artist_type";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+      rr:template "https://w3id.org/um/ken4256/project/mb/artistType/{name}";
+      rr:class music:ArtistType;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:comment ;
+      rr:objectMap [
+        rml:reference "description";
+        rr:language "en"
+      ]
+    ];
+
+.
+
+
+<TriplesMap_Gender>
+  a rr:TriplesMap;
+
+  rml:logicalSource [
+    rml:source <#DB_source>;
+    rr:sqlVersion rr:SQL2008;
+    rr:tableName "gender";
+    rml:referenceFormulation ql:CSV
+  ];
+
+  rr:subjectMap [
+      rr:template "https://w3id.org/um/ken4256/project/mb/gender/{name}";
+      rr:class schema:GenderType;
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:label ;
+      rr:objectMap [
+        rml:reference "name";
+        rr:language "en"
+      ]
+    ];
+
+    rr:predicateObjectMap [
+      rr:predicate rdfs:comment ;
+      rr:objectMap [
+        rml:reference "description";
+        rr:language "en"
+      ]
+    ];
+
+.
+
+
+<#DB_source> a d2rq:Database;
+  d2rq:jdbcDSN "jdbc:postgresql://0.0.0.0:5432/musicbrainz";
+  d2rq:jdbcDriver "org.postgresql.Driver";
+  d2rq:username "musicbrainz";
+  d2rq:password "it_works" .
